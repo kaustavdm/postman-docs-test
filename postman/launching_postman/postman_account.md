@@ -1,33 +1,32 @@
 ---
-title: "Postman account"
-page_id: "postman_account"
+title: Postman account
+page_id: postman_account
 warning: false
-
 ---
+
+# postman\_account
 
 ## Why sign up for a Postman account?
 
 When you sign up for a free Postman account, you can:
 
-* [Sync](/docs/postman/launching_postman/syncing/) and back up your history, collections, workspaces, environments, and header presets.
+* [Sync](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/syncing/README.md) and back up your history, collections, workspaces, environments, and header presets.
 * Easily work on multiple Postman instances from different machines.
-* Create [collection links](/docs/postman/collections/sharing_collections/) to send to other developers.
+* Create [collection links](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
 
 ## Signing up for a Postman account
 
 If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
 
-Launch the app, and see a prompt to log in or sign up.
-    [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
+Launch the app, and see a prompt to log in or sign up. [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)
 
-Sign up with your email address or your Google account.
-    [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
+Sign up with your email address or your Google account. [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)
 
 Confirm your email.
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing/). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/syncing/README.md). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
@@ -43,8 +42,7 @@ You can sign in to multiple accounts at the same time in the Postman app and the
 
 ### How to switch accounts in the Postman app?
 
-When you first open the Postman app, you can sign in as an existing user or create an account.
-If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
+When you first open the Postman app, you can sign in as an existing user or create an account. If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
 
 [![signin icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)
 
@@ -62,7 +60,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ### How to switch accounts in the Postman web view?
 
-When you sign in to the [Dashboard](https://go.postman.co/me/collections), you see your profile image on the top right hand corner of the screen.  
+When you sign in to the [Dashboard](https://go.postman.co/me/collections), you see your profile image on the top right hand corner of the screen.
 
 To sign in to another account, click the **Add a new account** button at the bottom of the drop down menu.
 
@@ -91,7 +89,7 @@ In the "Trouble signing in?" page, enter your email address and click the **Subm
 
 Check your email for instructions to recover your username or password.
 
-[![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)
+[![trouble\_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)
 
 ## Adding your profile image
 
@@ -103,7 +101,7 @@ In [Postman web](https://www.getpostman.com/), click the **Dashboard** button, a
 
 In the left navigation sidebar, click "Profile and Account".
 
-In the Profile and Account page, hover over the image icon to display a Pencil (edit) icon.
+In the Profile and Account page, hover over the image icon to display a Pencil \(edit\) icon.
 
 [![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)
 
@@ -116,3 +114,4 @@ Upload or drag and drop the image you want for your profile from your computer a
 The image you selected appears as your profile image.
 
 [![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)
+

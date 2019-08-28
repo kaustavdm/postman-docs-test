@@ -1,20 +1,22 @@
 ---
-title: "Intro to Workspaces"
-page_id: "intro_to_workspaces"
+title: Intro to Workspaces
+page_id: intro_to_workspaces
 warning: false
 ---
 
+# intro\_to\_workspaces
+
 ## What is a workspace?
 
-A workspace is a _view_ of all the Postman things you've come to use: [collections](/docs/postman/collections/intro_to_collections/), [environments](/docs/postman/environments_and_globals/intro_to_environments_and_globals/), [mocks](/docs/postman/mock_servers/intro_to_mock_servers/), [monitors](/docs/postman/monitors/intro_monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
+A workspace is a _view_ of all the Postman things you've come to use: [collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/intro_to_collections/README.md), [environments](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/intro_to_environments_and_globals/README.md), [mocks](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/intro_to_mock_servers/README.md), [monitors](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/intro_monitors/README.md), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
-[![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)
+[![WS\_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)
 
 Regardless of the type of workspace, you can share elements in multiple workspaces at the same time. Workspace elements include collections, monitors, mocks, environments, and integrations.
 
 ## Personal workspaces
 
-Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](/docs/postman/workspaces/creating_workspaces/).
+Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/workspaces/creating_workspaces/README.md).
 
 ## Team workspaces
 
@@ -52,8 +54,9 @@ It’s a common scenario that someone will be working on something that the broa
 
 ### Up-to-date Activity Feed
 
-View an activity feed of CUD (Create, Update, Delete) operations within a collection. Stay on top of who updated a collection, what the updates were, and when they were completed.
+View an activity feed of CUD \(Create, Update, Delete\) operations within a collection. Stay on top of who updated a collection, what the updates were, and when they were completed.
 
 ### Real time debugging with History
 
 When team members join a workspace, even the request history is a shared entity. Everyone who is part of that workspace can see the most recent requests sent, and observe the behavior in their own instances of Postman in real time. Previously, you might have discovered the bug, exported a cURL request from Postman, sent it over for someone else to load it up in their own instance of Postman.
+

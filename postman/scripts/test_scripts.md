@@ -1,9 +1,10 @@
 ---
-title: "Test scripts"
-page_id: "test_scripts"
+title: Test scripts
+page_id: test_scripts
 warning: false
-
 ---
+
+# test\_scripts
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
@@ -17,7 +18,7 @@ A Postman test is essentially JavaScript code executed after the request is sent
 
 Here are some examples:
 
-```js
+```javascript
 // example using pm.response.to.have
 pm.test("response is ok", function () {
     pm.response.to.have.status(200);
@@ -45,13 +46,13 @@ pm.test("response must be valid and have a body", function () {
 });
 ```
 
-You can add as many tests as needed, depending on how many things you want to test for. Check out some [examples](/docs/postman/scripts/test_examples/) of Postman tests.
+You can add as many tests as needed, depending on how many things you want to test for. Check out some [examples](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/test_examples/README.md) of Postman tests.
 
 Tests are saved as part of collection requests. This is perfect for both back-end and front-end developers to ensure that everything is working properly with the API. No more squinting through code trying to figure out what went wrong!
 
 ## Sandbox
 
-Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, refer to the [Sandbox documentation](/docs/postman/scripts/postman_sandbox/).
+Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, refer to the [Sandbox documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox/README.md).
 
 ## Snippets
 
@@ -65,14 +66,15 @@ While there are very few things to remember when writing tests, Postman tries to
 
 Postman runs tests every time you run a request. Of course, you can choose to not look at the test results!
 
-Results are displayed in a **Tests** tab under the response viewer. The tab header shows how many tests passed, and the test results are listed here. If the test evaluates to true, the test passed.
+Results are displayed in a **Tests** tab under the response viewer. The tab header shows how many tests passed, and the test results are listed here. If the test evaluates to true, the test passed.
 
 ## Adding a test script to a collection or folder
 
 You can add test scripts to a collection, a folder, or a single request within a collection. A test script associated with a collection will run after every request in the collection. A test script associated with a folder will run after every request in the folder. This allows you to reuse commonly executed tests after every request.
 
-Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Tests** tab to add and update the scripts. You can also add collection scripts when initially creating the collection.
+Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipsis \(...\) next to the collection or folder name, and select “Edit” to open the modal. Select the **Tests** tab to add and update the scripts. You can also add collection scripts when initially creating the collection.
 
 [![test scripts for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script8.png)
 
-Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts).
+Read more about [the execution order of scripts](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/intro_to_scripts/README.md#execution-order-of-scripts).
+

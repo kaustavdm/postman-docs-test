@@ -1,15 +1,17 @@
 ---
-title: "Debugging a collection run"
-page_id: "debugging_a_collection_run"
+title: Debugging a collection run
+page_id: debugging_a_collection_run
 warning: false
 ---
+
+# debugging\_a\_collection\_run
 
 Sometimes your Collection tests fail—even when you expect them all to pass.
 
 When failure occurs, you can debug your requests in two ways:
 
-* [Debugging using the Request and Response body](#debugging-using-the-request-and-response-body)
-* [Debugging using the Postman Console](#debugging-using-the-postman-console)
+* [Debugging using the Request and Response body](debugging_a_collection_run.md#debugging-using-the-request-and-response-body)
+* [Debugging using the Postman Console](debugging_a_collection_run.md#debugging-using-the-postman-console)
 
 Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/).
 
@@ -19,7 +21,7 @@ Click the **Run in Postman** button on the top right side of the screen. The Pos
 
 In your Postman builder view, click the **Runner** button in the left side of the header bar.
 
-In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. (You can also select the "Environment", "Iterations", "Delay" (time), "Log Repsonses", "Data", and "Persist Variables". But it's not necessary for this example.) The image below shows the results of the collection run.
+In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. \(You can also select the "Environment", "Iterations", "Delay" \(time\), "Log Repsonses", "Data", and "Persist Variables". But it's not necessary for this example.\) The image below shows the results of the collection run.
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
@@ -31,8 +33,7 @@ As you can see, this test is failing. Let's investigate why.
 
 ## Debugging using the Request and Response body
 
-[![tooltip for request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)
+[![tooltip for request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png) [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)
 
 As the test says, we're expecting a cookie named `foo1` to be returned as part of the response.
 
@@ -44,13 +45,13 @@ Moreover, when we expand the `Response Headers` section, we see that the cookie 
 
 Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons.
 
-You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/).
+You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md).
 
 ## Debugging using the Postman Console
 
 Debugging using the Postman Console requires you to have the console open before you start your run.
 
-For more information about the Postman Console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
+For more information about the Postman Console, see [Debugging and logs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/debugging_and_logs/README.md).
 
 [![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 
@@ -60,16 +61,16 @@ Let's find the request that's causing problems here and expand its response head
 
 Any `console.log` you have in your test scripts also appears here, so you can log in the console if you're debugging a complex test script.
 
----
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
-* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
-* [Working with data files](/docs/postman/collection_runs/working_with_data_files/)
-* [Running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations/)
-* [Building workflows](/docs/postman/collection_runs/building_workflows/)
-* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Command line integration with Newman](/docs/postman/collection_runs/command_line_integration_with_newman/)
-* [Integration with Jenkins](/docs/postman/collection_runs/integration_with_jenkins/)
-* [Integration with Travis CI](/docs/postman/collection_runs/integration_with_travis/)
-* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)
+* [Starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md)
+* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
+* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
+* [Running multiple iterations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/running_multiple_iterations/README.md)
+* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
+* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
+* [Command line integration with Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md)
+* [Integration with Jenkins](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_jenkins/README.md)
+* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
+* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
+

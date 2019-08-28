@@ -1,9 +1,10 @@
 ---
-title: "Setting up a monitor"
-page_id: "setting_up_monitor"
+title: Setting up a monitor
+page_id: setting_up_monitor
 warning: false
 ---
 
+# setting\_up\_monitor
 
 Postman lets you monitor shared or private collections. If you choose to monitor a shared collection, your team can see the monitor. If you create a monitor on an unshared collection, the monitor is private and only visible to you.
 
@@ -18,22 +19,22 @@ You can create a monitor from the:
 
 You can create a monitor for an existing collection from the sidebar.
 
-1. In the Postman app, click on the ellipsis (…) next to the collection you want to monitor.
+1. In the Postman app, click on the ellipsis \(…\) next to the collection you want to monitor.
 
    [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection1.png)
 
-1. Select "Monitor Collection".</li>
-1. In the **Monitor Collection** modal, you must:
-  
+2. Select "Monitor Collection".&lt;/li&gt;
+3. In the **Monitor Collection** modal, you must:
+
    * Enter the name of the monitor.
    * Specify a version tag.
-   * Select an environment (optional).
+   * Select an environment \(optional\).
    * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
    * Select one or more regions of the world from where you want to monitor your results.
-  
+
    You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
-  
-1. Click **Create**.
+
+4. Click **Create**.
 
    [![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)
 
@@ -41,8 +42,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 When you use the **New** button to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configures how you want to monitor the requests. Then Postman suggests steps to consider after you create the monitor.
 
-Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
-You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
+Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL. You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
 
 Here's how to create a monitor with the **New** button.
 
@@ -56,24 +56,23 @@ Here's how to create a monitor with the **New** button.
 
    **Note:** At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
-1. Click "Monitor".
-
-1. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
+2. Click "Monitor".
+3. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
    [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)
 
-1. After you select or create the request you want to monitor, click the **Next** button.
-1. In the **Configuration** tab, you must:
-  
+4. After you select or create the request you want to monitor, click the **Next** button.
+5. In the **Configuration** tab, you must:
+
    * Enter the name of the monitor
    * Specify a version tag for the monitor
-   * Select an environment (optional).
+   * Select an environment \(optional\).
    * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
    * Select one or more regions of the world from where you want to monitor your results.
 
-   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)  
+   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)
 
-1. Click **Create**.
+6. Click **Create**.
 
    In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
 
@@ -84,16 +83,15 @@ Here's how to create a monitor with the **New** button.
 The **Create New** tab appears by default when you launch Postman.
 
 1. Open the Postman app.
-1. In the **Create New** tab, click "Monitor".
-1. Follow steps 3-6 in the previous **New** button section.
+2. In the **Create New** tab, click "Monitor".
+3. Follow steps 3-6 in the previous **New** button section.
 
 **Note:** At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 ## Postman web
 
 1. Go to [Workspaces dashboard](https://app.getpostman.com/dashboard) and click "Monitors" and click the **Monitor this collection** button.
-
-1. In the **Create Monitor** modal, select a collection, schedule the frequency of the run, enter a monitor name, specify a version tag, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.
+2. In the **Create Monitor** modal, select a collection, schedule the frequency of the run, enter a monitor name, specify a version tag, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.
 
    [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection3.png)
 
@@ -101,7 +99,7 @@ The **Create New** tab appears by default when you launch Postman.
 
    You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
 
-1. Click **Add Monitor**.
+3. Click **Add Monitor**.
 
 ### Monitoring schedule and region
 
@@ -114,9 +112,10 @@ Postman Enterprise users interested in setting up dedicated IPs for their API mo
 ### Additional preferences
 
 | **Additional preferences** | **Description** |
-| --- | --- |
+| :--- | :--- |
 | Email notifications | Gets notifications about failures on up to 5 email addresses. |
 | Request timeout | Specifies a time interval after which your request is considered to time-out. |
 | Delay between requests | Adds a time lag between subsequent requests. |
 | Don’t follow redirects | Disables all following redirects. |
 | Disable SSL validation | Disables validations performed on SSL certificates. Check this setting if you use self-signed certificates. Use with caution! |
+

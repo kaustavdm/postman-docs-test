@@ -1,18 +1,19 @@
 ---
-title: "Creating collections"
-page_id: "creating_collections"
+title: Creating collections
+page_id: creating_collections
 warning: false
-
 ---
+
+# creating\_collections
 
 Postman Collections are a group of saved requests you can organize into folders.
 
 This topic covers:
 
-* [How to create collections](#how-to-create-collections)
-* [Saving a request to a collection](#saving-a-request-to-a-collection)
-* [Saving to a collection from history](#saving-to-a-collection-from-history)
-* [Duplicating an existing collection](#duplicating-an-existing-collection)
+* [How to create collections](creating_collections.md#how-to-create-collections)
+* [Saving a request to a collection](creating_collections.md#saving-a-request-to-a-collection)
+* [Saving to a collection from history](creating_collections.md#saving-to-a-collection-from-history)
+* [Duplicating an existing collection](creating_collections.md#duplicating-an-existing-collection)
 
 ## How to create collections
 
@@ -26,7 +27,7 @@ You can create a new collection from the:
 
 In the sidebar, select "Collections" and click the "Collections" icon.
 
-  [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
+[![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
 
 In the **CREATE A NEW COLLECTION** modal:
 
@@ -35,29 +36,29 @@ In the **CREATE A NEW COLLECTION** modal:
 * Enter a pre-request script to execute before the collection runs.
 * Add a test to execute after the collection runs.
 * Add variables to the collection and its requests.
-  
+
 Click the **Create** button.
 
 ### New button
 
 In the header toolbar, click the **New** button.
 
- [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
 The Create New tab appears.
 
- [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)
 
 In the Create New tab, click "Collection".
 
- In the **CREATE A NEW COLLECTION** modal:
-  
+In the **CREATE A NEW COLLECTION** modal:
+
 * Enter a name and optional description.
 * Select an authorization type.
 * Enter a pre-request script to execute before the collection runs.
 * Add a test to execute after the collection runs.
 * Add variables to the collection and its requests.
-  
+
 Click the **Create** button.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
@@ -120,11 +121,11 @@ After you save the request, you can add the URL, method, headers, and body to th
 
 ### Launch screen
 
-The  **Create New** tab appears by default when you launch Postman.
+The **Create New** tab appears by default when you launch Postman.
 
 Open Postman.
 
-In the  **Create New** tab, click "Request".
+In the **Create New** tab, click "Request".
 
 In the **SAVE REQUEST** modal, enter a title and description.
 
@@ -138,7 +139,7 @@ Click the **Save** button.
 
 ### Single request
 
-To save a single request to a collection, hover over a request under the **History** tab and click the plus (**+**) icon.
+To save a single request to a collection, hover over a request under the **History** tab and click the plus \(**+**\) icon.
 
 In the **SAVE REQUEST** modal, enter a title and description, select a collection, and save the request in an existing collection or create a new collection.
 
@@ -148,7 +149,7 @@ Click the **Save** button.
 
 ### Multiple requests
 
-To save multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
+To save multiple requests, click the plus \(**+**\) icon that displays at the top of the sidebar.
 
 In the **SAVE MULTIPLE REQUESTS** modal, select a collection or folders to save the requests.
 
@@ -158,17 +159,17 @@ Click the **Save** button.
 
 In the sidebar, select "Collections".
 
-Click the ellipsis (...) to expand the control dropdown.
+Click the ellipsis \(...\) to expand the control dropdown.
 
 [![collection ellipsis](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](/docs/postman/collections/sharing_collections/), [import and export collections](/docs/postman/collections/data_formats/), and [use other collection features](/docs/postman/collections/managing_collections/).  
+Learn how to [share collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md), [import and export collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/data_formats/README.md), and [use other collection features](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/managing_collections/README.md).
 
----
 For more information on collections, see:
 
-* [Intro to collections](/docs/postman/collections/intro_to_collections/)
-* [Sharing collections](/docs/postman/collections/sharing_collections/)
-* [Managing collections](/docs/postman/collections/managing_collections/)
+* [Intro to collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/intro_to_collections/README.md)
+* [Sharing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md)
+* [Managing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/managing_collections/README.md)
+

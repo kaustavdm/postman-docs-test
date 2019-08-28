@@ -1,16 +1,18 @@
 ---
-title: "Sessions"
-page_id: "Sessions"
+title: Sessions
+page_id: Sessions
 warning: false
 ---
 
+# sessions
+
 ## Sessions
 
- A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
+A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
 
 Sessions in Postman brings a host of capabilities. Some of them are outlined below:
 
-* You can change the values of variables in the Session the way you want without worrying about the sensitivity of the data as Postman by default does not sync the current values (values in the session) to the server
+* You can change the values of variables in the Session the way you want without worrying about the sensitivity of the data as Postman by default does not sync the current values \(values in the session\) to the server
 * You can change the initial value and the current value of a variable separately. Changing the initial value causes a change in the definition of the variable itself so a safer bet would be to tinker with the current value. You can always override/persist your current values of variables whenever necessary.
 * You can participate in a collaborative team workspace working with multiple people within the same collection/environment with your own values, IDs, passwords, access/secure tokens, and other private credentials.
 * Sessions offers developers a secure interface with tools, features and information they need to explore, test, and consume API information
@@ -30,7 +32,7 @@ The next section outlines how you can assign current values to these variables u
 
 ### Editing Collection Variables
 
-To assign a current value, click ellipsis (…) in the sidebar and select Edit to go to the Edit Collection screen as illustrated below. If you are not keen on working  with a current value, you can leave the current value field empty and the old behavior of Postman will take precedence wherein your initial value would be treated as your current value.
+To assign a current value, click ellipsis \(…\) in the sidebar and select Edit to go to the Edit Collection screen as illustrated below. If you are not keen on working with a current value, you can leave the current value field empty and the old behavior of Postman will take precedence wherein your initial value would be treated as your current value.
 
 Click Variables in the Edit Collection screen to bring up the following screen:
 
@@ -52,9 +54,9 @@ You can see Token1, Token3, and Token5 populated with their current values in th
 
 [![edit collection2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
 
-To persist your current value with the initial value for the disabled variables, point your cursor to the ellipsis (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
+To persist your current value with the initial value for the disabled variables, point your cursor to the ellipsis \(…\) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
 
-**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/postman/launching_postman/settings/)
+**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/settings/README.md)
 
 ### Editing Environment and Global Variables
 
@@ -72,7 +74,7 @@ You can assign a current value to the environment variables by
 
 #### Using Quick Editing Option
 
-To  quickly edit the environment variable, ensure your environment is selected in the following drop-down.
+To quickly edit the environment variable, ensure your environment is selected in the following drop-down.
 
 Click Quicklook to bring up the following screen:
 
@@ -94,7 +96,7 @@ Select the corresponding environment in the Postman main screen and click Quickl
 
 [![edit environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
 
-Click  button on top right corner (the  button at the bottom belongs to Global variables) to bring up the Manage Environment screen:
+Click button on top right corner \(the button at the bottom belongs to Global variables\) to bring up the Manage Environment screen:
 
 [![manage environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png)
 
@@ -111,3 +113,4 @@ Click Globals button to bring up the Manage Environments screen as illustrated b
 [![manage environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png)
 
 Go ahead and assign a current value.
+

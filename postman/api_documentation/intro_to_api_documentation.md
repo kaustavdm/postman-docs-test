@@ -1,9 +1,10 @@
 ---
-title: "Intro to API documentation"
-page_id: "intro_to_api_documentation"
+title: Intro to API documentation
+page_id: intro_to_api_documentation
 warning: false
-
 ---
+
+# intro\_to\_api\_documentation
 
 Postman's API Documentation feature lets you view private API documentation or share public API documentation in a beautifully formatted web page.
 
@@ -13,7 +14,7 @@ Postman generates and hosts browser-based API documentation for your collections
 
 ### Postman app
 
-To [access the private view](/docs/postman/api_documentation/viewing_documentation/) of your team documentation, go to the sidebar in the Postman app and click the **>** icon in the collection you want to view. Then click "View in web" to view the documentation for the collection.
+To [access the private view](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/viewing_documentation/README.md) of your team documentation, go to the sidebar in the Postman app and click the **&gt;** icon in the collection you want to view. Then click "View in web" to view the documentation for the collection.
 
 [![view doc sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
 
@@ -31,7 +32,7 @@ Click a collection name to view the documentation.
 
 ## Public documentation view
 
-After you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs/), you can use the public link to view the documentation.
+After you [publish your documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/publishing_public_docs/README.md), you can use the public link to view the documentation.
 
 The public link displays after you publish your documentation. A link to this published documentation is also accessible in the "Published" dropdown from the private documentation view.
 
@@ -39,10 +40,9 @@ The public link displays after you publish your documentation. A link to this pu
 
 You can create documentation in a few different ways:
 
-* Using the [**New** button](/docs/postman/launching_postman/newbutton/)
-
+* Using the [**New** button](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/newbutton/README.md)
 * Using the Postman app launch screen following similar steps as the **New** button
-* From an existing collection by [viewing the private version of the docs](/docs/postman/api_documentation/viewing_documentation/) or [publishing public docs](/docs/postman/api_documentation/publishing_public_docs/)
+* From an existing collection by [viewing the private version of the docs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/viewing_documentation/README.md) or [publishing public docs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/publishing_public_docs/README.md)
 
 ## What gets automatically generated?
 
@@ -54,7 +54,7 @@ Documentation for your API includes:
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 
-You can customize descriptions using [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown/) styling with embedded graphics to complement your documentation.
+You can customize descriptions using [Markdown](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/how_to_document_using_markdown/README.md) styling with embedded graphics to complement your documentation.
 
 Postman supports GitHub-flavored Markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
@@ -79,7 +79,7 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 You can post comments on your API documentation to share information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
 
-You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/postman/api_documentation/viewing_documentation/).
+You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/viewing_documentation/README.md).
 
 Once you access the documentation section, the comments section appears, as shown below:
 
@@ -92,3 +92,4 @@ Click Comments to bring up the 'Add comment' dialog, as illustrated above. Write
 ## Free documentation views with your Postman account
 
 Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+

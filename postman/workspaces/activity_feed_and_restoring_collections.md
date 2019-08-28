@@ -1,12 +1,14 @@
 ---
-title: "Activity feed and restoring collections"
-page_id: "activity_feed_and_restoring_collections"
+title: Activity feed and restoring collections
+page_id: activity_feed_and_restoring_collections
 warning: false
 ---
 
+# activity\_feed\_and\_restoring\_collections
+
 **Note: Team Library is only available for versions 5.0 and below.**
 
-An activity feed is a list of CUD (Create, Update, Delete) events that displays updates to a Postman collection in an interactive interface. You can use the activity feed to keep track of changes to your private and team collections by different users across the team.
+An activity feed is a list of CUD \(Create, Update, Delete\) events that displays updates to a Postman collection in an interactive interface. You can use the activity feed to keep track of changes to your private and team collections by different users across the team.
 
 The activity feed also lets you rollback a collection and restore it to any previous point in time.
 
@@ -16,7 +18,7 @@ Postman tracks changes to collections and teams.
 
 ### Collection activity feed
 
-To review the activity feed at the collection level in the Postman app, expand the arrow (&#9656;) next to the collection to view details. Under the **Activity** tab, review a chronological list of activities about the collection.
+To review the activity feed at the collection level in the Postman app, expand the arrow \(▸\) next to the collection to view details. Under the **Activity** tab, review a chronological list of activities about the collection.
 
 The activity feed displays who updated the collection, what the updates were, and when they were completed. For Postman Pro and Enterprise users, diffs are generated and displayed within the activity feed. Consecutive updates on the same session to the same entity are collated for readability.
 
@@ -44,7 +46,7 @@ You can also review the activity feed at the user level in the Postman web view.
 
 The activity feed captures different updates to collections.
 
-These updates include CUD (Create, Update, Delete) operations on workspaces, collections, folders, and requests. A consolidated update to a request as seen below provides chronological updates to pinpoint the exact changes.
+These updates include CUD \(Create, Update, Delete\) operations on workspaces, collections, folders, and requests. A consolidated update to a request as seen below provides chronological updates to pinpoint the exact changes.
 
 Postman Pro and Enterprise users can view diffs. Other users can track the "who" and "when" in the activity feeds, but not the "what" at this level of detail.
 
@@ -56,7 +58,7 @@ In the collection-level activity feed, Postman Pro and Enterprise users can rest
 
 Hovering over the activity displays a **Restore** link.
 
-Click the **Restore** link to restore the collection to the point right _after_ this change was applied.
+Click the **Restore** link to restore the collection to the point right _after_ this change was applied.
 
 [![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
 
@@ -68,6 +70,7 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
-* [Postman Pro to Slack integration](/docs/postman_pro/integrations/slack/)
-* [Postman Pro to HipChat integration](/docs/postman_pro/integrations/hipchat/)
-* [Postman Pro to Microsoft Teams integration](/docs/postman_pro/integrations/microsoft_teams/)  
+* [Postman Pro to Slack integration](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/integrations/slack/README.md)
+* [Postman Pro to HipChat integration](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/integrations/hipchat/README.md)
+* [Postman Pro to Microsoft Teams integration](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/integrations/microsoft_teams/README.md)  
+

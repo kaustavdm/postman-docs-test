@@ -1,22 +1,23 @@
 ---
-title: "Running multiple iterations"
-page_id: "running_multiple_iterations"
+title: Running multiple iterations
+page_id: running_multiple_iterations
 warning: false
 ---
 
+# running\_multiple\_iterations
+
 This topic describes how to run multiple iterations of a Collection. It also describes:
 
-* [Switching between iterations](#switching-between-iterations)
-* [Using green and red filters](#using-green-and-red-filters)
-* [Debugging with multiple iterations](#debugging-with-multiple-iterations)
-* [Programmatically customize iteration data](#programmatically-customize-iteration-data)
+* [Switching between iterations](running_multiple_iterations.md#switching-between-iterations)
+* [Using green and red filters](running_multiple_iterations.md#using-green-and-red-filters)
+* [Debugging with multiple iterations](running_multiple_iterations.md#debugging-with-multiple-iterations)
+* [Programmatically customize iteration data](running_multiple_iterations.md#programmatically-customize-iteration-data)
 
 Before we start, download the [collection. json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json) file we'll use to explain multiple iterations.
 
 The iterations of a collection run reflect how many times the collection will run. Here we have a collection run with five iterations.
 
-[![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner.png)
-[![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_results.png)
+[![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner.png) [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_results.png)
 
 ## Switching between iterations
 
@@ -32,7 +33,7 @@ The left sidebar contains three filters, which you can use to show all, passed, 
 
 Working with multiple iterations can become tedious when switching between them to check for expected behavor. For this reason, there's a third screen in the collection runner, which is the Run Summary screen.
 
-When a run is finished (or stopped), you can open up the Run Summary screen by clicking the orange **Run Summary** button.
+When a run is finished \(or stopped\), you can open up the Run Summary screen by clicking the orange **Run Summary** button.
 
 [![run summary](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/run_summary.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/run_summary.png)
 
@@ -44,24 +45,24 @@ The numbers in the header represent the current iteration. Now its easy to pinpo
 
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1.
 
-Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/postman/scripts/postman_sandbox_api_reference/), which is 0-indexed with the first iteration beginning with a count of zero.
+Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox_api_reference/README.md), which is 0-indexed with the first iteration beginning with a count of zero.
 
 ## Programmatically customize iteration data
 
 To provide data for a collection run, the Collection runner provides a "Data file" option. However, if you want to access and manipulate that data in the collection runs, you will need to it programmatically through scripts. This can be done by the `pm.iterationData` object, which provides several methods to programmatically access and manipulate the data, allowing the access of iteration data during a collection run.
 
-For a list of methods provided by the iterationData object, see: [pm.iterationData](/docs/postman/scripts/postman_sandbox_api_reference/)
+For a list of methods provided by the iterationData object, see: [pm.iterationData](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox_api_reference/README.md)
 
----
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
-* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
-* [Working with data files](/docs/postman/collection_runs/working_with_data_files/)
-* [Building workflows](/docs/postman/collection_runs/building_workflows/)
-* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run/)
-* [Command line integration with Newman](/docs/postman/collection_runs/command_line_integration_with_newman/)
-* [Integration with Jenkins](/docs/postman/collection_runs/integration_with_jenkins/)
-* [Integration with Travis CI](/docs/postman/collection_runs/integration_with_travis/)
-* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)
+* [Starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md)
+* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
+* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
+* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
+* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
+* [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md)
+* [Command line integration with Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md)
+* [Integration with Jenkins](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_jenkins/README.md)
+* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
+* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
+

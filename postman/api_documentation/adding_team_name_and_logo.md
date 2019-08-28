@@ -1,11 +1,13 @@
 ---
-title: "Adding team name and logo"
-page_id: "adding_team_name_and_logo"
-tags: 
-  - "pro"
-  - "enterprise"
+title: Adding team name and logo
+page_id: adding_team_name_and_logo
+tags:
+  - pro
+  - enterprise
 warning: false
 ---
+
+# adding\_team\_name\_and\_logo
 
 Postman users with the **Admin** member role can add a team name and logo to their Postman team account directly in the [Team Settings page](https://go.postman.co/settings/team/general).
 
@@ -23,14 +25,15 @@ If you didn’t enter a team name when you first created your Postman Pro or Ent
 
 To update your logo, go to the [Team Settings](https://go.postman.co/settings/team/general) page.
 
-Next hover over the logo under "Team Logo" in the "Style" section to see the **Pencil** (edit) and **Trash Can** (delete) icons.
+Next hover over the logo under "Team Logo" in the "Style" section to see the **Pencil** \(edit\) and **Trash Can** \(delete\) icons.
 
 [![edit logo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-logo-edit-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-logo-edit-1.png)
 
 Now click the **Pencil** icon and upload or drag or drop an image. Then click the **Upload** button to complete the process.
 
-This uploaded image displays in the header of your team's [published documentation](/docs/postman/api_documentation/publishing_public_docs/)  replacing the Postman logo. It may take up to 5 minutes for the logo to update.
+This uploaded image displays in the header of your team's [published documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/publishing_public_docs/README.md) replacing the Postman logo. It may take up to 5 minutes for the logo to update.
 
 ## Delete your team logo
 
 To delete a logo, click the **Trash Can** logo.
+

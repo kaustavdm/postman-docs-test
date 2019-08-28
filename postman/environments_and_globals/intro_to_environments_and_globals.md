@@ -1,15 +1,14 @@
 ---
-title: "Intro to environments and globals"
-page_id: "intro_to_environments_and_globals"
+title: Intro to environments and globals
+page_id: intro_to_environments_and_globals
 warning: false
-
 ---
 
-## What are environments and globals?
+# What are environments and globals?
 
 To understand environments and globals, you must first understand how variables work in Postman.
 
-### Variables
+## Variables
 
 Developers know that variables are static identifiers used to store dynamic values. The information the variables represent can change, but the operations on the variables remain the same. This is true for Variables in Postman too.
 
@@ -21,17 +20,17 @@ With Postman’s scripting engine you can set variable values, copy data from on
 
 In a nutshell, variables enable you to:
 
-* Reuse values to keep your code DRY (Don’t Repeat Yourself).
+* Reuse values to keep your code DRY \(Don’t Repeat Yourself\).
 * Configure your setup to accommodate the environment of different users.
 * Extract data from responses and chain requests in a collection.
 
-To learn how to use variables in Postman, see [Variables](/docs/postman/environments_and_globals/variables/).
+To learn how to use variables in Postman, see [Variables](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/variables/README.md).
 
 Now that we know how variables work in Postman, let's discuss environments and globals.
 
-### Environments
+## Environments
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman/#data-editor) to modify the key and value components of an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/navigating_postman/README.md#data-editor) to modify the key and value components of an environment.
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables to switch between different setups without changing your requests.
 
@@ -41,19 +40,19 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 **Note:** Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to create, share, and manage an environment, see [Manage environments](/docs/postman/environments_and_globals/manage_environments/).
+To learn how to create, share, and manage an environment, see [Manage environments](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_environments/README.md).
 
-### Globals
+## Globals
 
 Global variables provide a set of variables that are always available to you in all scopes. You can have multiple environments, but only one can be active at a time with one set of global variables, which are always available.
 
 **Note:** Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to manage and view global variables, see [Manage globals](/docs/postman/environments_and_globals/manage_globals/).
+To learn how to manage and view global variables, see [Manage globals](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_globals/README.md).
 
----
 For more information about environments and globals, see:
 
-* [Manage environments](/docs/postman/environments_and_globals/manage_environments/)
-* [Manage globals](/docs/postman/environments_and_globals/manage_globals/)
-* [Variables](/docs/postman/environments_and_globals/variables/)
+* [Manage environments](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_environments/README.md)
+* [Manage globals](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_globals/README.md)
+* [Variables](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/variables/README.md)
+

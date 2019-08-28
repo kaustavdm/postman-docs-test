@@ -1,13 +1,14 @@
 ---
-title: "Syncing"
-page_id: "syncing"
+title: Syncing
+page_id: syncing
 warning: false
-
 ---
+
+# syncing
 
 ## What is Syncing?
 
-Syncing makes all your Postman data available when you're signed in to your Postman account.
+Syncing makes all your Postman data available when you're signed in to your Postman account.
 
 Changes, such as edits, additions, or deletions, sync across all devices that are linked to your account.
 
@@ -37,11 +38,11 @@ Once you log in to Postman app, your data gets synced across all devices. Postma
 
 ### States
 
-If your app is in sync with our server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
+If your app is in sync with our server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
 
-If a sync operation is underway, it displays **SYNCING**.
+If a sync operation is underway, it displays **SYNCING**.
 
-If you are not signed in to the app, you see **OFFLINE**.
+If you are not signed in to the app, you see **OFFLINE**.
 
 When you open the app or if your connection drops, it displays **CONNECTING** before it starts to sync.
 
@@ -55,7 +56,7 @@ Don’t worry, Postman restores all your data from the cloud when you sign in, a
 
 When you reload the app, Postman automatically retrieves the most recent and up-to-date version of your collections.
 
-**Note:** If you don't intend to sync, you must export your data and then signout. However, if you need to delete already synced data, then you must delete your account. Note that you must leave the team first in order for you to delete your account. If you are a member of a team, click [here](https://go.postman.co/team) to exit the team.  
+**Note:** If you don't intend to sync, you must export your data and then signout. However, if you need to delete already synced data, then you must delete your account. Note that you must leave the team first in order for you to delete your account. If you are a member of a team, click [here](https://go.postman.co/team) to exit the team.
 
 ## Deleting your Postman account
 
@@ -64,3 +65,4 @@ If you have a Postman account and are not part of a Postman team, you can [delet
 Otherwise, you can contact us at [help@getpostman.com](mailto:help@getpostman.com).
 
 [![delete account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)
+

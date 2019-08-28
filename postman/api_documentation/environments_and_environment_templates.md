@@ -1,8 +1,10 @@
 ---
-title: "Local environments and shared environments"
-page_id: "environments_and_environment_templates"
+title: Local environments and shared environments
+page_id: environments_and_environment_templates
 warning: false
 ---
+
+# environments\_and\_environment\_templates
 
 You can access local environments and shared environments in your private and public API documentation.
 
@@ -25,3 +27,4 @@ An environment that you select while publishing documentation will be available 
 If your public documentation is published on a custom domain, only the selected environment will be available in the published page, even if the user is signed into their Postman account.
 
 [![environments dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-environMenu010718.png)
+

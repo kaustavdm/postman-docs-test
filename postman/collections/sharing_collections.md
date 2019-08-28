@@ -1,26 +1,27 @@
 ---
-title: "Sharing collections"
-page_id: "sharing_collections"
+title: Sharing collections
+page_id: sharing_collections
 warning: false
-
 ---
+
+# sharing\_collections
 
 Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard).
 
-**Note:** Before you can upload or share a collection, you must sign in to your [Postman account](/docs/postman/launching_postman/postman_account/). However, you can share collections as a file without being signed in.
+**Note:** Before you can upload or share a collection, you must sign in to your [Postman account](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/postman_account/README.md). However, you can share collections as a file without being signed in.
 
 This topic covers:
 
-* [Sharing collections in the app](#sharing-collections-in-the-app)
-* [Sharing collections in the Dashboard](#sharing-collections-in-the-dashboard)
-* [Sharing as a file](#sharing-as-a-file)
-* [Modifying team permissions](#modifying-team-permissions)
+* [Sharing collections in the app](sharing_collections.md#sharing-collections-in-the-app)
+* [Sharing collections in the Dashboard](sharing_collections.md#sharing-collections-in-the-dashboard)
+* [Sharing as a file](sharing_collections.md#sharing-as-a-file)
+* [Modifying team permissions](sharing_collections.md#modifying-team-permissions)
 
 ## Sharing collections in the app
 
 ### In the sidebar
 
-In the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+In the Postman app, select a collection in the sidebar and click the ellipsis **\(...\)** button.
 
 Select "Share Collection".
 
@@ -38,7 +39,7 @@ Select this option to share a collection to another workspace or with a workspac
 
 You can set team default permissions to either view-only or edit; only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared.
 
-**Note:** Refer to [Roles and permissions](/docs/postman_pro/managing_postman_pro/roles_and_permissions/) for more information on role-based user permissions.
+**Note:** Refer to [Roles and permissions](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/managing_postman_pro/roles_and_permissions/README.md) for more information on role-based user permissions.
 
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
 
@@ -48,7 +49,7 @@ In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a co
 
 ## Sharing collections with the Embed or Run In Postman button
 
-Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button/)** button in your collection for your API documentation, website, or Github readme.
+Select this option to embed a [**Run in Postman**](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_for_publishers/run_button/creating_run_button/README.md) button in your collection for your API documentation, website, or Github readme.
 
 The **Run in Postman** button lets anyone import and run this collection with one click.
 
@@ -82,13 +83,13 @@ You can download collections as a JSON file to share with others, with or withou
 
 You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
-Learn more about [exporting and importing collections](/docs/postman/collections/data_formats/), and the differences between collection formats [v1 and v2](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
+Learn more about [exporting and importing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/data_formats/README.md), and the differences between collection formats [v1 and v2](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
 ## Modifying team permissions
 
 You can share collections with your entire team or assign individual permissions for team members. You can designate view or edit permissions for the team only after sharing a collection. **Note**: For now, each collection's permission must be set individually by the collection editor. The default team permission is view-only.
 
-To assign or manage roles in the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+To assign or manage roles in the Postman app, select a collection in the sidebar and click the ellipsis **\(...\)** button.
 
 [![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles.png)
 
@@ -99,3 +100,4 @@ In the **Manage Roles** modal, select the default team permission, add a user/te
 Click the **Save Changes** button to complete the process.
 
 [![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles3.png)
+

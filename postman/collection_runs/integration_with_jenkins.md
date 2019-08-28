@@ -1,22 +1,23 @@
 ---
-title: "Integration with Jenkins"
-page_id: "integration_with_jenkins"
+title: Integration with Jenkins
+page_id: integration_with_jenkins
 warning: false
 tags:
-  - "newman"
-
+  - newman
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/postman/scripts/postman_sandbox/) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/postman/collection_runs/command_line_integration_with_newman/), the command line collection runner for Postman.
+# integration\_with\_jenkins
+
+Postman contains a full-featured [testing sandbox](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox/README.md) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md), the command line collection runner for Postman.
 
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation.
 
-* [Installation](#installation)
-* [Run a collection in Postman](#run-a-collection-in-postman)
-* [Run a collection using Newman](#run-a-collection-using-newman)
-* [Set up Jenkins](#set-up-jenkins)
-* [Troubleshooting](#troubleshooting)
-* [Configure frequency of runs](#configure-frequency-of-runs)
+* [Installation](integration_with_jenkins.md#installation)
+* [Run a collection in Postman](integration_with_jenkins.md#run-a-collection-in-postman)
+* [Run a collection using Newman](integration_with_jenkins.md#run-a-collection-using-newman)
+* [Set up Jenkins](integration_with_jenkins.md#set-up-jenkins)
+* [Troubleshooting](integration_with_jenkins.md#troubleshooting)
+* [Configure frequency of runs](integration_with_jenkins.md#configure-frequency-of-runs)
 
 **Note:** We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.
 
@@ -34,7 +35,7 @@ $ npm install -g newman
 
 ## Run a collection in Postman
 
-We assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
+We assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
 
 [![collection runner](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
 
@@ -52,7 +53,7 @@ Jenkins exposes an interface at `http://localhost:8080`.
 
 [![jenkins interface](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)
 
-Create a new job by clicking on the “New Item” link on the left sidebar > Select a “Freestyle Project” from the options > Name your project.
+Create a new job by clicking on the “New Item” link on the left sidebar &gt; Select a “Freestyle Project” from the options &gt; Name your project.
 
 [![new Jenkins job](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
 
@@ -108,16 +109,15 @@ Jenkins will now run Newman at your desired frequency and will tell you whether 
 
 You can use a wide variety of other configurations to make your collection more dynamic.
 
----
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
-* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
-* [Working with data files](/docs/postman/collection_runs/working_with_data_files/)
-* [Running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations/)
-* [Building workflows](/docs/postman/collection_runs/building_workflows/)
-* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run/)
+* [Starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md)
+* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
+* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
+* [Running multiple iterations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/running_multiple_iterations/README.md)
+* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
+* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
+* [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md)
+* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
+* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
 
-* [Integration with Travis CI](/docs/postman/collection_runs/integration_with_travis/)
-* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)

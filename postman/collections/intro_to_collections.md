@@ -1,9 +1,10 @@
 ---
-title: "Intro to collections"
-page_id: "intro_to_collections"
+title: Intro to collections
+page_id: intro_to_collections
 warning: false
 ---
 
+# intro\_to\_collections
 
 ## What is a Postman Collection?
 
@@ -31,9 +32,9 @@ You can attach test scripts to requests and build integration test suites.
 
 You can use scripts to pass data between API requests and build workflows that mirror your actual API use case.
 
----
 For more information on collections, see:
 
-* [Creating collections](/docs/postman/collections/creating_collections/)
-* [Sharing collections](/docs/postman/collections/sharing_collections/)
-* [Managing collections](/docs/postman/collections/managing_collections/)
+* [Creating collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/creating_collections/README.md)
+* [Sharing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md)
+* [Managing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/managing_collections/README.md)
+

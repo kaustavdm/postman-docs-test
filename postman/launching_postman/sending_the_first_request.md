@@ -1,8 +1,10 @@
 ---
-title: "Sending the first request"
-page_id: "sending_the_first_request"
+title: Sending the first request
+page_id: sending_the_first_request
 warning: false
 ---
+
+# sending\_the\_first\_request
 
 An API request lets you contact a server with API endpoints that you want to reach and perform some action. Those actions are HTTP methods.
 
@@ -20,11 +22,11 @@ Now let's send our first API request!
 
 Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field.
 
-Click the **Send** button to send your request.  Note the JSON data response from the server.
+Click the **Send** button to send your request. Note the JSON data response from the server.
 
 [![request response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)
 
-Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
+Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
 
 [![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
@@ -34,11 +36,11 @@ Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/
 
 To learn more about Postman Echo, see the [documentation for this sample API](https://docs.postman-echo.com/).
 
----
 For more information about requests, see:
 
-* [Requests](/docs/postman/sending_api_requests/requests/)
-* [Requests History](/docs/postman/sending_api_requests/history/)
-* [Troubleshooting API requests](/docs/postman/sending_api_requests/troubleshooting_api_requests/)
-* [Capturing HTTP requests](/docs/postman/sending_api_requests/capturing_http_requests/)
-* [Making SOAP requests](/docs/postman/sending_api_requests/making_soap_requests/)
+* [Requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/requests/README.md)
+* [Requests History](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/history/README.md)
+* [Troubleshooting API requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/troubleshooting_api_requests/README.md)
+* [Capturing HTTP requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/capturing_http_requests/README.md)
+* [Making SOAP requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/making_soap_requests/README.md)
+

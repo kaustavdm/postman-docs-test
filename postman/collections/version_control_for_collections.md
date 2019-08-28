@@ -1,8 +1,10 @@
 ---
-title: "Version Control for Collections"
-page_id: "version_control_for_collections"
+title: Version Control for Collections
+page_id: version_control_for_collections
 warning: false
 ---
+
+# version\_control\_for\_collections
 
 Version control provides more control over collaborative flows by allowing users to work on different "forks" of the same collection. They can later merge and pull changes between these forks to keep the collections up to date with each other.
 
@@ -10,18 +12,18 @@ You can 'fork' a collection in a personal or a team workspace. To fork a collect
 
 This section describes the following topics:
 
-* [Forking a collection](#forking-a-collection)
-* [Pulling changes](#pulling-changes)
-* [Merging changes](#merging-changes)
-* [Resolving conflicts](#resolving-conflicts)
+* [Forking a collection](version_control_for_collections.md#forking-a-collection)
+* [Pulling changes](version_control_for_collections.md#pulling-changes)
+* [Merging changes](version_control_for_collections.md#merging-changes)
+* [Resolving conflicts](version_control_for_collections.md#resolving-conflicts)
 
 ## Forking a collection
 
-You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a label for this fork, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A fork of this is created in Team-Cobras workspace. The following screen illustrates this:
+You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click \(...\) adjacent to a collection and select 'Create a Fork'. Specify a label for this fork, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A fork of this is created in Team-Cobras workspace. The following screen illustrates this:
 
 [![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
-**Note:** If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will have to create the mocks and monitors again.  
+**Note:** If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will have to create the mocks and monitors again.
 
 ## Pulling changes
 
@@ -57,10 +59,11 @@ When conflicts arise, Postman uses color legends to illustrate and help users ta
 
 [![color legends](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_UI_Convention.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_UI_Convention.png)
 
-As shown in the above screen, the source is displayed in Orange color which indicates the changes you made. The destination is shown in Blue color which indicates the changes made by someone else. Click *Use this* to make the selection to resolve the conflict.
+As shown in the above screen, the source is displayed in Orange color which indicates the changes you made. The destination is shown in Blue color which indicates the changes made by someone else. Click _Use this_ to make the selection to resolve the conflict.
 
-**Note:** Clicking *Use this* button only makes the selection of your choice. You still need to merge the changes by clicking **Merge all changes** button and then making the selection thereafter.
+**Note:** Clicking _Use this_ button only makes the selection of your choice. You still need to merge the changes by clicking **Merge all changes** button and then making the selection thereafter.
 
 This section illustrates how you can resolve conflicts when changes happen in more than a single workspace. The Request R2 gets changed in both the workspaces - personal and Team-Cobras. Postman notifies the conflict and prompts you to resolve them. The following screen illustrates this:
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Resolve_Conflicts.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Resolve_Conflicts.gif)
+

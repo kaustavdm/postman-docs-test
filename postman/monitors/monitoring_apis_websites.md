@@ -1,9 +1,10 @@
 ---
-title: "Monitoring APIs and websites"
-page_id: "monitoring_apis_websites"
+title: Monitoring APIs and websites
+page_id: monitoring_apis_websites
 warning: false
 ---
 
+# monitoring\_apis\_websites
 
 Some teams use Postman monitors to ensure their APIs and websites remain operational. Monitors can be run as frequently as five minutes.
 
@@ -11,7 +12,7 @@ Some teams use Postman monitors to ensure their APIs and websites remain operati
 
 ### Monitoring a specific endpoint
 
-To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](/docs/postman/scripts/test_scripts/).
+To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/test_scripts/README.md).
 
 ### Monitoring an entire API
 
@@ -19,9 +20,9 @@ This is similar in approach to monitoring a specific endpoint, with the subtle d
 
 ### Running an API test suite
 
-In an API where various endpoints are interlinked, precise knowledge about their functioning is crucial. In cases where data is passed from one request to another, the entire response, or a part of it, can be saved as an environment variable. Additional care should be taken while setting non-atomic values (objects, arrays, etc), as the original value will be lost. Instead, such complex objects and arrays can be handled via:
+In an API where various endpoints are interlinked, precise knowledge about their functioning is crucial. In cases where data is passed from one request to another, the entire response, or a part of it, can be saved as an environment variable. Additional care should be taken while setting non-atomic values \(objects, arrays, etc\), as the original value will be lost. Instead, such complex objects and arrays can be handled via:
 
-```js
+```javascript
 // set the value
 postman.setEnvironmentVariable('complexObj', JSON.stringify(myComplexObjOrArray, null, 2));
 
@@ -47,7 +48,7 @@ With the stringified nested value in place, it can be passed to subsequent reque
 
 Response code tests can be done by checking the value of `responseCode.code` within test scripts.
 
-```js
+```javascript
 tests['Request resulted in 200 OK'] = responseCode.code === 200;
 ```
 
@@ -55,7 +56,8 @@ tests['Request resulted in 200 OK'] = responseCode.code === 200;
 
 As an alternative to request timeouts, website response latency can be monitored by comparing values of the `responseTime` variable within test scripts.
 
-```js
+```javascript
 tests['Response latency is acceptable'] = responseTime < 1000;
 // responseTime is in milliseconds
 ```
+

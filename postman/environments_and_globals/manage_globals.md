@@ -1,15 +1,17 @@
 ---
-title: "Manage globals"
-page_id: "manage_globals"
+title: Manage globals
+page_id: manage_globals
 warning: false
 ---
+
+# manage\_globals
 
 Global variables provide a set of variables that are available in all scopes. You can have multiple environments, but only one environment can be active at a time with one set of global variables.
 
 This topic describes:
 
-* [Managing global variables](#managing-global-variables)
-* [Viewing global variables](#viewing-global-variables)
+* [Managing global variables](manage_globals.md#managing-global-variables)
+* [Viewing global variables](manage_globals.md#viewing-global-variables)
 
 ## Managing global variables
 
@@ -29,13 +31,13 @@ You also can download your global variables as a single JSON file.
 
 To view global variables, click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables.
 
-Clicking  "Edit" opens a modal for editing keys and values.
+Clicking "Edit" opens a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)
 
----
 For more information about globals, variables, and environments, see:
 
-* [Variables](/docs/postman/environments_and_globals/variables/)
-* [Intro to environments and globals](/docs/postman/environments_and_globals/intro_to_environments_and_globals/)
-* [Manage environments](/docs/postman/environments_and_globals/manage_environments/)
+* [Variables](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/variables/README.md)
+* [Intro to environments and globals](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/intro_to_environments_and_globals/README.md)
+* [Manage environments](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_environments/README.md)
+

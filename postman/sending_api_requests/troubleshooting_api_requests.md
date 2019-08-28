@@ -1,15 +1,16 @@
 ---
-title: "Troubleshooting API requests"
-page_id: "troubleshooting_api_requests"
+title: Troubleshooting API requests
+page_id: troubleshooting_api_requests
 warning: false
-
 ---
+
+# troubleshooting\_api\_requests
 
 There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message about an error in connecting to the server.
 
 [![no response message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)
 
-For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/). It has detailed information about the failure. 
+For more details about the possible causes of the error, open [Postman Console](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/debugging_and_logs/README.md). It has detailed information about the failure.
 
 Consider these issues as you troubleshoot API requests.
 
@@ -27,11 +28,11 @@ If you are using a proxy server to make requests, make sure you configure it cor
 
 ### SSL Certificate issues
 
-When using HTTPS connections, Postman might show the error above. In this case, you can turn off SSL verification in the Postman Settings. If that does not help, your server might be using a client-side SSL connection, which you can configure in [Postman Settings](/docs/postman/launching_postman/settings/). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
+When using HTTPS connections, Postman might show the error above. In this case, you can turn off SSL verification in the Postman Settings. If that does not help, your server might be using a client-side SSL connection, which you can configure in [Postman Settings](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/settings/README.md). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
 
 ### Client Certificate issues
 
-Client certificates might be required for this server. Fix this by [adding a client certificate](/docs/postman/sending_api_requests/certificates/) in the [Postman Settings](/docs/postman/launching_postman/settings/).  
+Client certificates might be required for this server. Fix this by [adding a client certificate](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/certificates/README.md) in the [Postman Settings](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/settings/README.md).
 
 ### Incorrect Request URLs
 
@@ -39,11 +40,11 @@ If you use variables in your request, make sure they are defined in your environ
 
 ### Using incorrect protocol
 
-Check whether you're accidentally using "https://" instead of "http://" in your URL (or vice versa).
+Check whether you're accidentally using "https://" instead of "http://" in your URL \(or vice versa\).
 
 ### Invalid Postman behavior
 
-Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with us if you believe Postman is misbehaving. Let us know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
+Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs \(if available\). We're always watching out for these cases, so get in touch with us if you believe Postman is misbehaving. Let us know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
 
 ### Very short timeouts
 
@@ -53,7 +54,7 @@ If you configure a very short timeout in Postman, the request might timeout befo
 
 If your server sends incorrect response encoding errors, or invalid headers, Postman will fail to interpret the response, causing the error above.
 
-If you still can't get your API working, help can frequently be found in the [Postman community](https://postmancommunity.slack.com) or [Stack Overflow](https://stackoverflow.com/questions/tagged/postman).
+If you still can't get your API working, help can frequently be found in the [Postman community](https://postmancommunity.slack.com) or [Stack Overflow](https://stackoverflow.com/questions/tagged/postman).
 
-If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center]({{https://support.getpostman.com/hc}}) and include the app’s [console logs](/docs/postman/sending_api_requests/debugging_and_logs/) in your report to provide some helpful data for troubleshooting. 
+If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/postman/sending_api_requests/%7B%7Bhttps:/support.getpostman.com/hc%7D%7D/README.md) and include the app’s [console logs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/debugging_and_logs/README.md) in your report to provide some helpful data for troubleshooting.
 

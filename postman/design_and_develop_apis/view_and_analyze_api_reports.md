@@ -1,10 +1,12 @@
 ---
-title: "Viewing and analyzing APIs"
-page_id: "viewing_and_analyzing_apis"
+title: Viewing and analyzing APIs
+page_id: viewing_and_analyzing_apis
 warning: false
 ---
 
-Business integration with the system and adding features to provide better user experience ends up creating more APIs. Their interactions become complex and traction of those becomes difficult. With the API ecosystem broadening, the need for detailed API analytics has arisen to facilitate providing feedback to *Design, Plan, Develop & Test* teams. API analytics help CXOs, Product managers, and API Architects to understand how their digital initiatives are performing.
+# view\_and\_analyze\_api\_reports
+
+Business integration with the system and adding features to provide better user experience ends up creating more APIs. Their interactions become complex and traction of those becomes difficult. With the API ecosystem broadening, the need for detailed API analytics has arisen to facilitate providing feedback to _Design, Plan, Develop & Test_ teams. API analytics help CXOs, Product managers, and API Architects to understand how their digital initiatives are performing.
 
 Postman's **Reporting** feature allows you to view data around the APIs created, collection executions, test failures and so on. Postman reports visualize your API data and provide insights to their use, their performance, troubleshooting, planning, and adherence to Service level agreements.
 
@@ -13,28 +15,25 @@ Postman also provides key API and organization-level metrics to help you underst
 **Prerequisites:** To generate reports, you should:
 
 * Share your API
-
 * Add a collection to an API
-
-* Turn-on *Save Responses*
-
+* Turn-on _Save Responses_
 * Send a request from request builder
 
 You can use Postman API reports to collect and review specific information about APIs or teams under a single view in the Postman web dashboard. This section describes the following topics:
 
-* [Launching the reporting dashboard](#launching-the-reporting-dashboard)
-* [Understanding team-level reports](#understanding-team-level-reports)
-* [Understanding API-level reports](#understanding-API-level-reports)
+* [Launching the reporting dashboard](view_and_analyze_api_reports.md#launching-the-reporting-dashboard)
+* [Understanding team-level reports](view_and_analyze_api_reports.md#understanding-team-level-reports)
+* [Understanding API-level reports](view_and_analyze_api_reports.md#understanding-API-level-reports)
 
 ## Launching the reporting dashboard
 
 To launch the reporting dashboard, select the API from the APIs tab and click **Reports**. Reports of the selected API will be displayed. The following screen illustrates launching the reporting dashboard:
 
-![reports main(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)
+![reports main\(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png\)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)
 
 Clicking the **Reports** button launches the following screen:
 
-![reports main(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)
+![reports main\(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png\)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)
 
 In the above screen, select **Overview** to display organization-level metrics. It provides a statistical overview of the number of new and active APIs, team-size, and active and empty workspaces within a team. Click the corresponding section in the above screen for a detailed overview.
 
@@ -44,12 +43,12 @@ Visibility into some of your most important team-level metrics helps you and you
 
 It presents you the below reports:
 
-* [Total number of APIs](#total-number-of-apis)
-* [New APIs](#new-apis)
-* [Active APIs](#active-apis)
-* [Team size](#team-size)
-* [Empty workspaces](#empty-workspaces)
-* [Active workspaces](#active-workspaces)
+* [Total number of APIs](view_and_analyze_api_reports.md#total-number-of-apis)
+* [New APIs](view_and_analyze_api_reports.md#new-apis)
+* [Active APIs](view_and_analyze_api_reports.md#active-apis)
+* [Team size](view_and_analyze_api_reports.md#team-size)
+* [Empty workspaces](view_and_analyze_api_reports.md#empty-workspaces)
+* [Active workspaces](view_and_analyze_api_reports.md#active-workspaces)
 
 ### Total number of APIs
 
@@ -57,7 +56,7 @@ Displays the total number of APIs present in the team. It displays a list of all
 
 ### New APIs
 
-Displays the number of new APIs created in the team. However, note that new versions of an API created are not accounted for.  
+Displays the number of new APIs created in the team. However, note that new versions of an API created are not accounted for.
 
 ### Active APIs
 
@@ -77,13 +76,13 @@ Displays a list of all active workspaces within a team. Personal workspaces are 
 
 ## Understanding API-level reports
 
-The API-level metrics allow you to determine the team usage, average response time, average response size, test failures and response codes. It provides a graphical representation of the data and enables you to filter the data by collections and duration (last 7 or 30 days). The API-level metrics dashboard presents you the below metrics:
+The API-level metrics allow you to determine the team usage, average response time, average response size, test failures and response codes. It provides a graphical representation of the data and enables you to filter the data by collections and duration \(last 7 or 30 days\). The API-level metrics dashboard presents you the below metrics:
 
-* [Average response size](#average-response-size)
-* [Average response time](#average-response-time)
-* [Number of error responses](#number-of-error-responses)
-* [Traffic in Postman](#traffic-in-postman)
-* [Failed test runs](#failed-test-runs)
+* [Average response size](view_and_analyze_api_reports.md#average-response-size)
+* [Average response time](view_and_analyze_api_reports.md#average-response-time)
+* [Number of error responses](view_and_analyze_api_reports.md#number-of-error-responses)
+* [Traffic in Postman](view_and_analyze_api_reports.md#traffic-in-postman)
+* [Failed test runs](view_and_analyze_api_reports.md#failed-test-runs)
 
 ### Average response size
 
@@ -104,3 +103,4 @@ Gives you insights into the usage and traffic of the API so you can measure the 
 ### Failed test runs
 
 Provides you the number of failed test runs in collection runs and monitors so you can identify and debug the root cause of errors in the requests.
+
