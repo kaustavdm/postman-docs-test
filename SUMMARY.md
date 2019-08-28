@@ -69,7 +69,7 @@
     * [requests](postman/sending_api_requests/requests.md)
     * [authorization](postman/sending_api_requests/authorization.md)
     * [generate\_code\_snippets](postman/sending_api_requests/generate_code_snippets.md)
-    * [visualizer](postman/sending_api_requests/visualizer.md)
+    * [Visualize API Responses](postman/sending_api_requests/visualizer.md)
     * [certificates](postman/sending_api_requests/certificates.md)
     * [history](postman/sending_api_requests/history.md)
     * [responses](postman/sending_api_requests/responses.md)
