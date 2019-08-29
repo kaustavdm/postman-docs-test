@@ -148,11 +148,8 @@
   * [PagerDuty](postman-pro/integrations/pagerduty.md)
   * [Slack](postman-pro/integrations/slack.md)
   * [VictorOps](postman-pro/integrations/victorops.md)
-* [api search](postman-pro/api_search/README.md)
-  * [searching apis](postman-pro/api_search/searching_apis.md)
-* [pro api](postman-pro/pro_api/README.md)
-  * [intro api](postman-pro/pro_api/intro_api.md)
-  * [continuous integration](postman-pro/pro_api/continuous_integration.md)
+* [API Search](postman-pro/api_search/README.md)
+  * [Searching APIs](postman-pro/api_search/searching_apis.md)
 
 ## Postman Enterprise
 
