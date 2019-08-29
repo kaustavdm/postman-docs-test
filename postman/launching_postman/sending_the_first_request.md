@@ -4,8 +4,6 @@ page_id: sending_the_first_request
 warning: false
 ---
 
-# Sending the first request
-
 An API request lets you contact a server with API endpoints that you want to reach and perform some action. Those actions are HTTP methods.
 
 The most common methods are GET, POST, PUT, and DELETE. The names of the methods are self-explanatory. For example GET enables you to retrieve data from a server. POST enables you to add data to an existing file or resource in a server. PUT lets you replace an existing file or resource in a server. And DELETE lets you delete data from a server.
@@ -28,7 +26,7 @@ Click the **Send** button to send your request. Note the JSON data response from
 
 Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
 
-[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
+![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
 ## Postman Echo
 
@@ -38,9 +36,8 @@ To learn more about Postman Echo, see the [documentation for this sample API](ht
 
 For more information about requests, see:
 
-* [Requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/requests/README.md)
-* [Requests History](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/history/README.md)
-* [Troubleshooting API requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/troubleshooting_api_requests/README.md)
-* [Capturing HTTP requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/capturing_http_requests/README.md)
-* [Making SOAP requests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/making_soap_requests/README.md)
-
+* [Requests](./postman/sending_api_requests/requests/README.md)
+* [Requests History](./postman/sending_api_requests/history/README.md)
+* [Troubleshooting API requests](./postman/sending_api_requests/troubleshooting_api_requests/README.md)
+* [Capturing HTTP requests](./postman/sending_api_requests/capturing_http_requests/README.md)
+* [Making SOAP requests](./postman/sending_api_requests/making_soap_requests/README.md)
