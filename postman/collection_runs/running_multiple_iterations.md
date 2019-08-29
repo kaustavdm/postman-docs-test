@@ -45,24 +45,24 @@ The numbers in the header represent the current iteration. Now its easy to pinpo
 
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1.
 
-Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](postman/scripts/postman_sandbox_api_reference.md), which is 0-indexed with the first iteration beginning with a count of zero.
+Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/postman/scripts/postman_sandbox_api_reference.md), which is 0-indexed with the first iteration beginning with a count of zero.
 
 ## Programmatically customize iteration data
 
 To provide data for a collection run, the Collection runner provides a "Data file" option. However, if you want to access and manipulate that data in the collection runs, you will need to it programmatically through scripts. This can be done by the `pm.iterationData` object, which provides several methods to programmatically access and manipulate the data, allowing the access of iteration data during a collection run.
 
-For a list of methods provided by the iterationData object, see: [pm.iterationData](postman/scripts/postman_sandbox_api_reference.md)
+For a list of methods provided by the iterationData object, see: [pm.iterationData](/postman/scripts/postman_sandbox_api_reference.md)
 
 For more information about collection runs, see:
 
-* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
-* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
-* [Working with data files](postman/collection_runs/working_with_data_files.md)
-* [Building workflows](postman/collection_runs/building_workflows.md)
-* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
-* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
-* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
-* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
-* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
-* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
+* [Starting a collection run](/postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](/postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](/postman/collection_runs/working_with_data_files.md)
+* [Building workflows](/postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](/postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](/postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](/postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](/postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](/postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](/postman/collection_runs/newman_with_docker.md)
 

@@ -39,15 +39,15 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
 
-To learn how to export collections to share as a file, see the [collection documentation](postman/collections/sharing_collections.md).
+To learn how to export collections to share as a file, see the [collection documentation](/postman/collections/sharing_collections.md).
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. For more information, see the [documentation for collections](postman/collections/sharing_collections.md) to learn how to share a file as a URL.
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/postman/collections/sharing_collections.md) to learn how to share a file as a URL.
 
-Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](postman/environments_and_globals/manage_environments.md) from Postman and run them with the `-e` flag.
+Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/postman/environments_and_globals/manage_environments.md) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -176,7 +176,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](postman/scripts/postman_sandbox.md) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/postman/scripts/postman_sandbox.md) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
@@ -327,14 +327,14 @@ For the complete list of details, see the [Newman README](https://github.com/pos
 
 For more information about collection runs, see:
 
-* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
-* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
-* [Working with data files](postman/collection_runs/working_with_data_files.md)
-* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
-* [Building workflows](postman/collection_runs/building_workflows.md)
-* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
-* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
-* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
-* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
-* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
+* [Starting a collection run](/postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](/postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](/postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](/postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](/postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](/postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](/postman/collection_runs/debugging_a_collection_run.md)
+* [Integration with Jenkins](/postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](/postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](/postman/collection_runs/newman_with_docker.md)
 

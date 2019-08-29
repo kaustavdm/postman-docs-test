@@ -20,9 +20,9 @@ Postman provides Enterprise users with:
 In addition to SSO, audit logs, static IP, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
 
 * [Dedicated IP addresses](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/intro_monitors/README.md#monitoring-resources-in-multiple-regions) for API monitoring.
-* [Monitoring](postman/monitors/intro_monitors.md) to check the performance of your API. Postman monitoring lets you run a collection periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes.
-* [Mock servers](postman/mock_servers/intro_to_mock_servers.md) to simulate the real API and decouple teams collection [monitoring](postman/monitors/intro_monitors.md) to check the performance of your API. Decoupling enables different members of your development team to work in parallel rather than having to wait on different pieces to be built before moving forward.
-* [Out-of-the-box integrations](postman_pro/integrations/intro_integrations.md) and the [Postman API](postman/postman_api/intro_api.md) to connect your different tools.
+* [Monitoring](/postman/monitors/intro_monitors.md) to check the performance of your API. Postman monitoring lets you run a collection periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes.
+* [Mock servers](/postman/mock_servers/intro_to_mock_servers.md) to simulate the real API and decouple teams collection [monitoring](/postman/monitors/intro_monitors.md) to check the performance of your API. Decoupling enables different members of your development team to work in parallel rather than having to wait on different pieces to be built before moving forward.
+* [Out-of-the-box integrations](/postman_pro/integrations/intro_integrations.md) and the [Postman API](/postman/postman_api/intro_api.md) to connect your different tools.
 
 For more information about Postman Enterprise, contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).
 

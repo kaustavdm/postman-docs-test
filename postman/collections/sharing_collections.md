@@ -8,7 +8,7 @@ warning: false
 
 Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard).
 
-**Note:** Before you can upload or share a collection, you must sign in to your [Postman account](postman/launching_postman/postman_account.md). However, you can share collections as a file without being signed in.
+**Note:** Before you can upload or share a collection, you must sign in to your [Postman account](/postman/launching_postman/postman_account.md). However, you can share collections as a file without being signed in.
 
 This topic covers:
 
@@ -39,7 +39,7 @@ Select this option to share a collection to another workspace or with a workspac
 
 You can set team default permissions to either view-only or edit; only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared.
 
-**Note:** Refer to [Roles and permissions](postman_pro/managing_postman_pro/roles_and_permissions.md) for more information on role-based user permissions.
+**Note:** Refer to [Roles and permissions](/postman_pro/managing_postman_pro/roles_and_permissions.md) for more information on role-based user permissions.
 
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
 
@@ -49,7 +49,7 @@ In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a co
 
 ## Sharing collections with the Embed or Run In Postman button
 
-Select this option to embed a [**Run in Postman**](postman_for_publishers/run_button/creating_run_button.md) button in your collection for your API documentation, website, or Github readme.
+Select this option to embed a [**Run in Postman**](/postman_for_publishers/run_button/creating_run_button.md) button in your collection for your API documentation, website, or Github readme.
 
 The **Run in Postman** button lets anyone import and run this collection with one click.
 
@@ -83,7 +83,7 @@ You can download collections as a JSON file to share with others, with or withou
 
 You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
-Learn more about [exporting and importing collections](postman/collections/data_formats.md), and the differences between collection formats [v1 and v2](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
+Learn more about [exporting and importing collections](/postman/collections/data_formats.md), and the differences between collection formats [v1 and v2](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
 ## Modifying team permissions
 

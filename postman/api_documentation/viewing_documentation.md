@@ -14,7 +14,7 @@ Private, unpublished collections are only available to the author, while collect
 
 ## Viewing Private Documentation
 
-Only the author can view private documentation unless the collection is shared within a [team workspace](postman/workspaces/intro_to_workspaces.md).
+Only the author can view private documentation unless the collection is shared within a [team workspace](/postman/workspaces/intro_to_workspaces.md).
 
 You must be logged in to your Postman account to view private documentation. Postman Pro and Enterprise teammates with view permissions can oversee progress, while teammates with edit permissions can collaborate in writing, revising, and updating documentation.
 

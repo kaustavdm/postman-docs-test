@@ -18,7 +18,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
 
 * **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
 * **SSL certificate verification** \(native apps only\): Prevents the app from checking validity of SSL certificates while making a request.
-* **Always open requests in new tab:** Set this option to ON to open requests in a new tab. This option is, by default, set to OFF. Which means each time you click a request in the side bar, Postman opens the request in the preview tab. Refer to the section [Working with tabs](postman/sending_api_requests/working_with_tabs.md) for a clear understanding of this feature.
+* **Always open requests in new tab:** Set this option to ON to open requests in a new tab. This option is, by default, set to OFF. Which means each time you click a request in the side bar, Postman opens the request in the preview tab. Refer to the section [Working with tabs](/postman/sending_api_requests/working_with_tabs.md) for a clear understanding of this feature.
 * **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to 'ON'.
 * **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
 * **Request Timeout in ms \(0 for infinity\):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
@@ -57,23 +57,23 @@ This is where you can view keyboard shortcuts available for your operating syste
 
 ## Data Import / Export
 
-Import and export data in bulk inside Postman. This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](postman/collections/data_formats.md) in Postman.
+Import and export data in bulk inside Postman. This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/postman/collections/data_formats.md) in Postman.
 
 ## Add-ons
 
-Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](postman/collection_runs/command_line_integration_with_newman.md).
+Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](/postman/collection_runs/command_line_integration_with_newman.md).
 
 ## Sync
 
-If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app \(and not just locally\). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](postman/launching_postman/syncing.md).
+If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app \(and not just locally\). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/postman/launching_postman/syncing.md).
 
 ## Certificates
 
-Add and view client certificates on a per domain basis. Learn more about [setting certificates](postman/sending_api_requests/certificates.md).
+Add and view client certificates on a per domain basis. Learn more about [setting certificates](/postman/sending_api_requests/certificates.md).
 
 ## Proxy
 
-Configure your proxy settings in the Postman app using this tab. For more information on Proxy, see [How to configure proxy in Postman](postman/sending_api_requests/proxy.md).
+Configure your proxy settings in the Postman app using this tab. For more information on Proxy, see [How to configure proxy in Postman](/postman/sending_api_requests/proxy.md).
 
 ## Update
 

@@ -90,9 +90,9 @@ The mock server is now added to the API and appears as illustrated below:
 
 To understand how versioning influences mock servers, refer to the section
 
-[Versioning an API](postman/design_and_develop_apis/versioning_an_api.md).
+[Versioning an API](/postman/design_and_develop_apis/versioning_an_api.md).
 
-To add a mock server to a specific version of your collection, refer to the section [Setting up a mock server](postman/mock_servers/setting_up_mock.md)
+To add a mock server to a specific version of your collection, refer to the section [Setting up a mock server](/postman/mock_servers/setting_up_mock.md)
 
 ### Adding documentation
 
@@ -102,9 +102,9 @@ You can link the documentation generated from your collections to an API using v
 
 In the above screen, select a corresponding collection from the list with the documentation you want to link and click **Add Documentation**. The documentation is now added to the API. Only available collections will be shown in this list.
 
-To understand how versioning influences documentation, refer to the section [Versioning an API](postman/design_and_develop_apis/versioning_an_api.md).
+To understand how versioning influences documentation, refer to the section [Versioning an API](/postman/design_and_develop_apis/versioning_an_api.md).
 
-To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentaion](postman/api_documentation/publishing_public_docs.md)
+To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentaion](/postman/api_documentation/publishing_public_docs.md)
 
 ### Adding an environment
 
@@ -158,12 +158,12 @@ In the **Observe** tab, click **Add a monitor**. The following screen opens:
 
 In the above screen, select a corresponding monitor from the list and click **Add Monitor**. Only available monitors will be shown in this list. The monitor attached to the collection is now linked to the API.
 
-To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](postman/monitors/setting_up_monitor.md)
+To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](/postman/monitors/setting_up_monitor.md)
 
 For more information on APIs, see:
 
-* [Sharing an API](postman/design_and_develop_apis/sharing_apis.md)
-* [Versioning an API](postman/design_and_develop_apis/versioning_an_api.md)
-* [Managing APIs](postman/design_and_develop_apis/managing_apis.md)
-* [Introduction to APIs](postman/design_and_develop_apis/introduction_to_apis.md)
+* [Sharing an API](/postman/design_and_develop_apis/sharing_apis.md)
+* [Versioning an API](/postman/design_and_develop_apis/versioning_an_api.md)
+* [Managing APIs](/postman/design_and_develop_apis/managing_apis.md)
+* [Introduction to APIs](/postman/design_and_develop_apis/introduction_to_apis.md)
 

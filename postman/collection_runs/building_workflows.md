@@ -8,7 +8,7 @@ warning: false
 
 When you start a collection run, all requests are run in the order you see them in the main app. So all requests are executed first, by order of the folder, and then any requests in the root of the collection.
 
-However, you can override this behavior using a [built-in function](postman/scripts/branching_and_looping.md) called `postman.setNextRequest()`. This function, as the name suggests, allows you to specify which request runs next.
+However, you can override this behavior using a [built-in function](/postman/scripts/branching_and_looping.md) called `postman.setNextRequest()`. This function, as the name suggests, allows you to specify which request runs next.
 
 Let's look at a sample collection to understand this function.
 
@@ -18,7 +18,7 @@ Let's look at a sample collection to understand this function.
 
 ## Getting started
 
-Before you start, download and [import](postman/collections/data_formats.md) [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we'll discuss in this topic.
+Before you start, download and [import](/postman/collections/data_formats.md) [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we'll discuss in this topic.
 
 ## Basic workflow
 
@@ -49,19 +49,19 @@ This [blog post](https://blog.getpostman.com/2016/11/09/generate-spotify-playlis
 Remember these two facts as you use this workflow:
 
 * `postman.setNextRequest()` is always executed at the end of the current request. This means that if you put this function before other code blocks anywhere in pre-request or test script, these blocks will still execute.
-* `postman.setNextRequest()` has a scope, which is the source of your collection run. If you run a collection, you can jump to any request in the collection \(even requests inside folders, using the same syntax\). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. So you can jump to any request in this folder, but not ones that are outside of the folder. It includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](postman/collection_runs/starting_a_collection_run.md).
+* `postman.setNextRequest()` has a scope, which is the source of your collection run. If you run a collection, you can jump to any request in the collection \(even requests inside folders, using the same syntax\). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. So you can jump to any request in this folder, but not ones that are outside of the folder. It includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/postman/collection_runs/starting_a_collection_run.md).
 
 For more information on collection runs, see:
 
-* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
-* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
-* [Working with data files](postman/collection_runs/working_with_data_files.md)
-* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
-* [Building workflows](postman/collection_runs/building_workflows.md)
-* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
-* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
-* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
-* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
-* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
-* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
+* [Starting a collection run](/postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](/postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](/postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](/postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](/postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](/postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](/postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](/postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](/postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](/postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](/postman/collection_runs/newman_with_docker.md)
 

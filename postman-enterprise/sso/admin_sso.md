@@ -38,12 +38,12 @@ As a next step, you must fill in the details in the **Identity Provider Details*
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-* [Setting up custom SAML in Okta](postman_enterprise/sso/saml_okta.md)
-* [Setting up custom SAML in Duo](postman_enterprise/sso/saml_duo.md)
-* [Setting up custom SAML in Gsuite](postman_enterprise/sso/saml_gsuite.md)
-* [Setting up custom SAML in Onelogin](postman_enterprise/sso/saml_onelogin.md)
-* [Setting up custom SAML in Ping Identity](postman_enterprise/sso/saml_ping.md)
-* [Setting up custom SAML in Azure AD](postman_enterprise/sso/saml_in_azure_ad.md)
+* [Setting up custom SAML in Okta](/postman_enterprise/sso/saml_okta.md)
+* [Setting up custom SAML in Duo](/postman_enterprise/sso/saml_duo.md)
+* [Setting up custom SAML in Gsuite](/postman_enterprise/sso/saml_gsuite.md)
+* [Setting up custom SAML in Onelogin](/postman_enterprise/sso/saml_onelogin.md)
+* [Setting up custom SAML in Ping Identity](/postman_enterprise/sso/saml_ping.md)
+* [Setting up custom SAML in Azure AD](/postman_enterprise/sso/saml_in_azure_ad.md)
 
 ## Managing user accounts
 

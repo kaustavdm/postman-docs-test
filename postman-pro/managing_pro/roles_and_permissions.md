@@ -125,5 +125,5 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 
 ## Migrating to Postman v7
 
-To know more about migration-related information, please refer to [migrating to v7](postman_pro/managing_postman_pro/migrating_to_v7.md) section.
+To know more about migration-related information, please refer to [migrating to v7](/postman_pro/managing_postman_pro/migrating_to_v7.md) section.
 

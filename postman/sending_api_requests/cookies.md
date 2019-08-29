@@ -6,7 +6,7 @@ warning: false
 
 # Cookies
 
-Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to the section [Capturing cookies](postman/sending_api_requests/interceptor_extension.md).
+Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to the section [Capturing cookies](/postman/sending_api_requests/interceptor_extension.md).
 
 ## Getting to the cookie manager
 

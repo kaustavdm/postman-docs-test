@@ -12,19 +12,19 @@ Postman provides a multi-window and multi-tab interface for you to work on APIs.
 
 ## Sidebar
 
-The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: [**History**](postman/sending_api_requests/history.md) and [**Collections**](postman/collections/creating_collections.md).
+The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: [**History**](/postman/sending_api_requests/history.md) and [**Collections**](/postman/collections/creating_collections.md).
 
 You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens, and show or hide the sidebar in the Status bar.
 
 ## History tab
 
-The Postman app saves every request you send in the [History](postman/sending_api_requests/history.md) tab in the sidebar.
+The Postman app saves every request you send in the [History](/postman/sending_api_requests/history.md) tab in the sidebar.
 
 ## Collections tab
 
 This tab creates and manages collections from the **Collections** tab in the sidebar.
 
-Learn more about [collections](postman/collections/creating_collections.md) and how they accelerate the speed of your APIs.
+Learn more about [collections](/postman/collections/creating_collections.md) and how they accelerate the speed of your APIs.
 
 ## Header toolbar
 
@@ -34,9 +34,9 @@ The header toolbar contains these options:
 
 * **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
 * **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
-* **Runner** button - Opens the [collection runner.](postman/collection_runs/starting_a_collection_run.md)
+* **Runner** button - Opens the [collection runner.](/postman/collection_runs/starting_a_collection_run.md)
 * **New window** icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-* **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](postman/workspaces/intro_to_workspaces.md), and create and manage Workspaces.
+* **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/postman/workspaces/intro_to_workspaces.md), and create and manage Workspaces.
 * **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
 * **IN SYNC status** icon - Updates the status of your Postman account.
 * **Settings** icon - Manages Postman app settings and finds other support resources.
@@ -52,9 +52,9 @@ Two consoles are available in Postman to see what's going on behind the scenes.
 
   **Note:** This feature is only available in Postman's native apps.
 
-* DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](postman/sending_api_requests/debugging_and_logs.md).
+* DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/postman/sending_api_requests/debugging_and_logs.md).
 
-Learn more about [troubleshooting with console logs](postman/sending_api_requests/debugging_and_logs.md).
+Learn more about [troubleshooting with console logs](/postman/sending_api_requests/debugging_and_logs.md).
 
 ## Status bar
 
@@ -64,7 +64,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 * Search in collections, environments, and globals.
 * Open the Postman [console.](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/navigating_postman/README.md#console)
 * Select either a single or two pane layout.
-* Open the [keyboard shortcuts.](postman/launching_postman/keyboard_shortcuts.md)
+* Open the [keyboard shortcuts.](/postman/launching_postman/keyboard_shortcuts.md)
 * Get help or provide feedback.
 
 [![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)
@@ -114,7 +114,7 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 ### Moving requests
 
-In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the [keyboard shortcut](postman/launching_postman/keyboard_shortcuts.md).
+In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the [keyboard shortcut](/postman/launching_postman/keyboard_shortcuts.md).
 
 ### Mouse actions
 
@@ -126,7 +126,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience.
 
-**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](postman/launching_postman/newbutton.md)
+**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/postman/launching_postman/newbutton.md)
 
 ### Visual layout
 

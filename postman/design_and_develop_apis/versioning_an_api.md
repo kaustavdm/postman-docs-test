@@ -43,7 +43,7 @@ Click **Create another version** to go to the following screen:
 
 Specify a name for the new version of your API. In the **Carry over elements from a previous version** list, select a version if you want to carry over the elements. If you do not want to carry over any API elements, select **Don't carry over any elements** to create a new API version from scratch.
 
-If you choose to **Carry over elements from a previous version**, then select the elements you'd like to carry over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow](postman/design_and_develop_apis/the_api_workflow.md) screen where you can _define, develop, test, and observe_ your new API version.
+If you choose to **Carry over elements from a previous version**, then select the elements you'd like to carry over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow](/postman/design_and_develop_apis/the_api_workflow.md) screen where you can _define, develop, test, and observe_ your new API version.
 
 ## Renaming API version tags
 
@@ -118,12 +118,12 @@ Let's consider an example - you added a monitor \(M1\) to a collection \(C1\) wh
 
 ## Publishing version-specific documentation
 
-You can publish your documentation for the tagged versions of your collections. For more information on this, refer to [Publishing version-specific documentaion](postman/api_documentation/publishing_public_docs.md)
+You can publish your documentation for the tagged versions of your collections. For more information on this, refer to [Publishing version-specific documentaion](/postman/api_documentation/publishing_public_docs.md)
 
 For more information on APIs, see:
 
-* [Sharing an API](postman/design_and_develop_apis/sharing_apis.md)
-* [Managing API workflow](postman/design_and_develop_apis/the_api_workflow.md)
-* [Managing APIs](postman/design_and_develop_apis/managing_apis.md)
-* [Introduction to APIs](postman/design_and_develop_apis/introduction_to_apis.md)
+* [Sharing an API](/postman/design_and_develop_apis/sharing_apis.md)
+* [Managing API workflow](/postman/design_and_develop_apis/the_api_workflow.md)
+* [Managing APIs](/postman/design_and_develop_apis/managing_apis.md)
+* [Introduction to APIs](/postman/design_and_develop_apis/introduction_to_apis.md)
 

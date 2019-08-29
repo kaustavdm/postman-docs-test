@@ -70,7 +70,7 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
-* [Postman Pro to Slack integration](postman_pro/integrations/slack.md)
-* [Postman Pro to HipChat integration](postman_pro/integrations/hipchat.md)
-* [Postman Pro to Microsoft Teams integration](postman_pro/integrations/microsoft_teams.md)
+* [Postman Pro to Slack integration](/postman_pro/integrations/slack.md)
+* [Postman Pro to HipChat integration](/postman_pro/integrations/hipchat.md)
+* [Postman Pro to Microsoft Teams integration](/postman_pro/integrations/microsoft_teams.md)
 

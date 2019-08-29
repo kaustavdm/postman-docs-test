@@ -6,7 +6,7 @@ warning: false
 
 # Using environments in collection runs
 
-Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](postman/environments_and_globals/variables.md). You also can use environments in the Collection Runner.
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/postman/environments_and_globals/variables.md). You also can use environments in the Collection Runner.
 
 Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script.
 
@@ -67,14 +67,14 @@ After running your collection, Postman first checks the setting ‘Keep variable
 
 For more information about collection runs, see:
 
-* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
-* [Working with data files](postman/collection_runs/working_with_data_files.md)
-* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
-* [Building workflows](postman/collection_runs/building_workflows.md)
-* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
-* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
-* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
-* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
-* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
-* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
+* [Starting a collection run](/postman/collection_runs/starting_a_collection_run.md)
+* [Working with data files](/postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](/postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](/postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](/postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](/postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](/postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](/postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](/postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](/postman/collection_runs/newman_with_docker.md)
 

@@ -32,7 +32,7 @@ Expand the arrow \(▸\) to show the details view for the collection. Collapse t
 
 ## Create a new collection
 
-Click the "new collection" icon on the top right, or [save a current request to a new collection](postman/collections/creating_collections.md).
+Click the "new collection" icon on the top right, or [save a current request to a new collection](/postman/collections/creating_collections.md).
 
 [![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-collection-sidebar.png)
 
@@ -74,11 +74,11 @@ The Trash feature is available only for the signed-in users. So, if you are not 
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
-If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](postman/workspaces/activity_feed_and_restoring_collections.md).
+If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/postman/workspaces/activity_feed_and_restoring_collections.md).
 
 ## Share a collection
 
-To share a collection, see [sharing collections](postman/collections/sharing_collections.md).
+To share a collection, see [sharing collections](/postman/collections/sharing_collections.md).
 
 ## Other collection features
 
@@ -88,15 +88,15 @@ Within a collection or folder, you can reorder requests using drag and drop. You
 
 ### Save responses
 
-Requests can also store [sample responses](postman/sending_api_requests/responses.md) when saved in a collection.
+Requests can also store [sample responses](/postman/sending_api_requests/responses.md) when saved in a collection.
 
 ### Use examples
 
-With [examples](postman/collections/examples.md), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](postman/mock_servers/intro_to_mock_servers.md).
+With [examples](/postman/collections/examples.md), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/postman/mock_servers/intro_to_mock_servers.md).
 
 ### Add scripts
 
-Requests stored inside a collection can contain [scripts](postman/scripts/intro_to_scripts.md) to add dynamic behavior to the collection.
+Requests stored inside a collection can contain [scripts](/postman/scripts/intro_to_scripts.md) to add dynamic behavior to the collection.
 
 ### Adding folders
 

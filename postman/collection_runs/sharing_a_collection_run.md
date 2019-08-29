@@ -30,14 +30,14 @@ To import a run, click the orange **Import Test Run** button on the Runner's sel
 
 For more information about collection runs, see:
 
-* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
-* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
-* [Working with data files](postman/collection_runs/working_with_data_files.md)
-* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
-* [Building workflows](postman/collection_runs/building_workflows.md)
-* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
-* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
-* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
-* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
-* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
+* [Starting a collection run](/postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](/postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](/postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](/postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](/postman/collection_runs/building_workflows.md)
+* [Debugging a collection run](/postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](/postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](/postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](/postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](/postman/collection_runs/newman_with_docker.md)
 

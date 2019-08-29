@@ -6,7 +6,7 @@ warning: false
 
 # Publishing public docs
 
-Published documentation enables you to share your [public API documentation](postman_for_publishers/public_api_docs.md) with the world.
+Published documentation enables you to share your [public API documentation](/postman_for_publishers/public_api_docs.md) with the world.
 
 ## Generating public documentation
 
@@ -18,13 +18,13 @@ Alternatively, you can also click ellipsis \(...\) in the sidebar and select 'Pu
 
 [![publish docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)
 
-From the **Publish Collection** page, you can select a [corresponding environment](postman/api_documentation/environments_and_environment_templates.md) and a corresponding collection version to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment.
+From the **Publish Collection** page, you can select a [corresponding environment](/postman/api_documentation/environments_and_environment_templates.md) and a corresponding collection version to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment.
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Preview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Preview.png)
 
 You will also be able to preview your documentation before you publish. To preview your documentation, click **Preview Documentation** as illustrated in the above screen.
 
-Optionally, you can pick from a list of verified [custom domains](postman/api_documentation/adding_and_verifying_custom_domains.md) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page.
+Optionally, you can pick from a list of verified [custom domains](/postman/api_documentation/adding_and_verifying_custom_domains.md) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page.
 
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)
 
@@ -44,7 +44,7 @@ You can share your collection with the API community by selecting the radio butt
 
 [![add to templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)
 
-Postman allows you to customize the appearance of your published documentation pages. Add your [team logo](postman/api_documentation/adding_team_name_and_logo.md) and update the color theme to align with your brand.
+Postman allows you to customize the appearance of your published documentation pages. Add your [team logo](/postman/api_documentation/adding_team_name_and_logo.md) and update the color theme to align with your brand.
 
 ### Custom Styling
 

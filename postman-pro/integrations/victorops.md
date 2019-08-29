@@ -10,7 +10,7 @@ warning: false
 
 VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
 
-This integration allows you to configure [Postman Monitors](postman/monitors/intro_monitors.md) to trigger incidents on VictorOps whenever it fails.
+This integration allows you to configure [Postman Monitors](/postman/monitors/intro_monitors.md) to trigger incidents on VictorOps whenever it fails.
 
 ## Get the VictorOps API Key
 

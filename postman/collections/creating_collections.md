@@ -165,11 +165,11 @@ Click the ellipsis \(...\) to expand the control dropdown.
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](postman/collections/sharing_collections.md), [import and export collections](postman/collections/data_formats.md), and [use other collection features](postman/collections/managing_collections.md).
+Learn how to [share collections](/postman/collections/sharing_collections.md), [import and export collections](/postman/collections/data_formats.md), and [use other collection features](/postman/collections/managing_collections.md).
 
 For more information on collections, see:
 
-* [Intro to collections](postman/collections/intro_to_collections.md)
-* [Sharing collections](postman/collections/sharing_collections.md)
-* [Managing collections](postman/collections/managing_collections.md)
+* [Intro to collections](/postman/collections/intro_to_collections.md)
+* [Sharing collections](/postman/collections/sharing_collections.md)
+* [Managing collections](/postman/collections/managing_collections.md)
 

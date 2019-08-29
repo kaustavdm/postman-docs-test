@@ -44,11 +44,11 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 * `{{$timestamp}}`: Adds the current timestamp
 * `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
-For full list of available dynamic variables, see the [Postman Sandbox API Reference](postman/scripts/postman_sandbox_api_reference.md).
+For full list of available dynamic variables, see the [Postman Sandbox API Reference](/postman/scripts/postman_sandbox_api_reference.md).
 
 ## Cookies
 
-* `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](postman/sending_api_requests/interceptor_extension.md) for this to work.
+* `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/postman/sending_api_requests/interceptor_extension.md) for this to work.
 * `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](https://blog.getpostman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
 ## Request/response related properties
@@ -76,5 +76,5 @@ If you're using [data files](https://blog.getpostman.com/2014/10/28/using-csv-an
 
 ## pm.\* APIs
 
-Review [Postman Sandbox API Reference](postman/scripts/postman_sandbox_api_reference.md).
+Review [Postman Sandbox API Reference](/postman/scripts/postman_sandbox_api_reference.md).
 

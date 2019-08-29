@@ -46,13 +46,13 @@ pm.test("response must be valid and have a body", function () {
 });
 ```
 
-You can add as many tests as needed, depending on how many things you want to test for. Check out some [examples](postman/scripts/test_examples.md) of Postman tests.
+You can add as many tests as needed, depending on how many things you want to test for. Check out some [examples](/postman/scripts/test_examples.md) of Postman tests.
 
 Tests are saved as part of collection requests. This is perfect for both back-end and front-end developers to ensure that everything is working properly with the API. No more squinting through code trying to figure out what went wrong!
 
 ## Sandbox
 
-Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, refer to the [Sandbox documentation](postman/scripts/postman_sandbox.md).
+Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, refer to the [Sandbox documentation](/postman/scripts/postman_sandbox.md).
 
 ## Snippets
 

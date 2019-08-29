@@ -36,8 +36,8 @@ To learn more about Postman Echo, see the [documentation for this sample API](ht
 
 For more information about requests, see:
 
-* [Requests](postman/sending_api_requests/requests.md)
-* [Requests History](postman/sending_api_requests/history.md)
-* [Troubleshooting API requests](postman/sending_api_requests/troubleshooting_api_requests.md)
-* [Capturing HTTP requests](postman/sending_api_requests/capturing_http_requests.md)
-* [Making SOAP requests](postman/sending_api_requests/making_soap_requests.md)
+* [Requests](/postman/sending_api_requests/requests.md)
+* [Requests History](/postman/sending_api_requests/history.md)
+* [Troubleshooting API requests](/postman/sending_api_requests/troubleshooting_api_requests.md)
+* [Capturing HTTP requests](/postman/sending_api_requests/capturing_http_requests.md)
+* [Making SOAP requests](/postman/sending_api_requests/making_soap_requests.md)

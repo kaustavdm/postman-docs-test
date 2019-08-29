@@ -6,7 +6,7 @@ warning: false
 
 # Manage environments
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](postman/launching_postman/navigating_postman.md) to modify an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/postman/launching_postman/navigating_postman.md) to modify an environment.
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests.
 
@@ -89,11 +89,11 @@ When others import the environment or access the shared template, they can input
 
 **Note:** For Pro and Enterprise users who share environments in a workspace, be aware that changes made to a shared environment will sync for the entire team. If you have sensitive credentials that you don’t want to expose, create a duplicate of the environment, remove the sensitive values, before uploading to share with others.
 
-For Postman Pro and Enterprise users, learn how to [share environments & environment templates](postman/team_library/sharing.md) with team members.
+For Postman Pro and Enterprise users, learn how to [share environments & environment templates](/postman/team_library/sharing.md) with team members.
 
 For more information about variables and globals, see:
 
-* [Variables](postman/environments_and_globals/variables.md)
-* [Intro to environments and globals](postman/environments_and_globals/intro_to_environments_and_globals.md)
-* [Manage globals](postman/environments_and_globals/manage_globals.md)
+* [Variables](/postman/environments_and_globals/variables.md)
+* [Intro to environments and globals](/postman/environments_and_globals/intro_to_environments_and_globals.md)
+* [Manage globals](/postman/environments_and_globals/manage_globals.md)
 

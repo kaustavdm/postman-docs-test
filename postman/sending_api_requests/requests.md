@@ -42,7 +42,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 ## Using Workspaces build view
 
-In Workspaces, you can [create any kind of HTTP request](postman/launching_postman/sending_the_first_request.md) quickly. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
+In Workspaces, you can [create any kind of HTTP request](/postman/launching_postman/sending_the_first_request.md) quickly. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
 
 [![workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Area-Params-Label.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Area-Params-Label.png)
 
@@ -50,7 +50,7 @@ In Workspaces, you can [create any kind of HTTP request](postman/launching_postm
 
 When you enter the request URL in the URL input field, previously-used URLs will show an autocomplete dropdown.
 
-Click the **Params** tab to open the [data editor](postman/launching_postman/navigating_postman.md) for URL parameters. When you add key-value pairs, Postman combines everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source. Postman splits the URL into pairs automatically.
+Click the **Params** tab to open the [data editor](/postman/launching_postman/navigating_postman.md) for URL parameters. When you add key-value pairs, Postman combines everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source. Postman splits the URL into pairs automatically.
 
 **Note:** Parameters you enter in the URL bar or in the data editor will not automatically be URL-encoded. Right click a piece of selected text, and select "EncodeURIComponent" to manually encode the parameter value.
 
@@ -74,11 +74,11 @@ Clicking on the **Headers** tab shows the headers key-value editor. You can set 
 
 [![autocomplete headers](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)
 
-**Note on restricted headers:** If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](postman/sending_api_requests/interceptor_extension.md).
+**Note on restricted headers:** If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/postman/sending_api_requests/interceptor_extension.md).
 
 ## Cookies
 
-You can manage Cookies in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. For more information, see [Managing cookies](postman/sending_api_requests/cookies.md).
+You can manage Cookies in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. For more information, see [Managing cookies](/postman/sending_api_requests/cookies.md).
 
 [![manage cookies modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies.png)
 
@@ -94,7 +94,7 @@ Use the control dropdown to change the request method. The request body editor a
 
 [![url methods](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)
 
-You can also customize the methods the way you want. To learn more about customizing methods, refer to [creating custom methods](postman/customizing_postman.md) section.
+You can also customize the methods the way you want. To learn more about customizing methods, refer to [creating custom methods](/postman/customizing_postman.md) section.
 
 ## Request Body
 
@@ -112,7 +112,7 @@ Postman defaults to 'none' option whenever you send a request. Choose this optio
 
 [![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)
 
-`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs \(using the [data editor](postman/launching_postman/navigating_postman.md) for your data.\) It also lets you specify the content type for each part of a multi-part form request individually. You can attach files to a key as well.
+`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs \(using the [data editor](/postman/launching_postman/navigating_postman.md) for your data.\) It also lets you specify the content type for each part of a multi-part form request individually. You can attach files to a key as well.
 
 When you repeatedly make API calls that require sending these files again and again, Postman persists your file paths for subsequent use. This also helps you run collections that contain requests requiring file upload.
 
@@ -128,7 +128,7 @@ This encoding is the same as the one used in URL parameters. You just need to en
 
 [![raw data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)
 
-A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](postman/environments_and_globals/variables.md). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
+A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](/postman/environments_and_globals/variables.md). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
 
 **Tip**: Selecting text in the editor and pressing **CMD/CTRL + B** can beautify the XML/JSON content automatically.
 
@@ -144,5 +144,5 @@ Authoring and sending a GraphQL query in Postman is simple. The following screen
 
 [![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
 
-To send a GraphQL query, ensure you're present in the _Body_ tab and then select **GraphQL** \(shown above in red circle\). Enter your GraphQL query in the _Query_ section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. Refer to the [Using GraphQL](postman/sending_api_requests/graphql.md) section for more information on GraphQL and how to enable **Autocomplete** feature powered by Postman API schemas.
+To send a GraphQL query, ensure you're present in the _Body_ tab and then select **GraphQL** \(shown above in red circle\). Enter your GraphQL query in the _Query_ section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. Refer to the [Using GraphQL](/postman/sending_api_requests/graphql.md) section for more information on GraphQL and how to enable **Autocomplete** feature powered by Postman API schemas.
 
