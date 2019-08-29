@@ -22,7 +22,7 @@ In the Postman app, click the "Build" dropdown menu and select "Browse".
 
 Choose the collection you want to monitor, click the ellipsis **\(...\)** icon, and select "Monitor Collection".
 
-[![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
+![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
 
 In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/postman/monitors/setting_up_monitor.md).
 
@@ -34,7 +34,7 @@ Click the **Monitor this collection** button to complete the process.
 
 In the Postman app, click the "Build" dropdown menu and select "Browse".
 
-[![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
+![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
 
 At the top of the page, select "Monitors".
 
@@ -42,5 +42,5 @@ Choose the monitor and click the **Edit** button.
 
 In the **EDIT MONITOR** modal, select "US \(Static IP\)" in "Regions" and click the **Save Changes** button to complete the process.
 
-[![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)
+![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)
 

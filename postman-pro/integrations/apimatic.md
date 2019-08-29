@@ -8,10 +8,10 @@ warning: false
 
 # apimatic
 
-You can use the Postman Pro to APIMATIC Integration to back up your Postman Collections in Swagger, RAML, API Blueprint, and other API description formats.   
+You can use the Postman Pro to APIMATIC Integration to back up your Postman Collections in Swagger, RAML, API Blueprint, and other API description formats.
 
 
-This integration allows APIMATIC to convert your Postman Collections into any major API description format, and save the resulting file into your designated GitHub repository.   
+This integration allows APIMATIC to convert your Postman Collections into any major API description format, and save the resulting file into your designated GitHub repository.
 
 
 If you don't already have a [GitHub account](https://github.com/), you'll need to create one.
@@ -20,23 +20,23 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 1. In the [Integrations page](https://go.postman.co/workspaces), find APIMATIC in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![select apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)
+![select apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)
 
 1. Click the **View Details** button to see information about APIMATIC and how the Postman to APIMATIC integration converts, formats, and saves your Postman collections to Github.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for APIMATIC, or view all integrations.
 
-[![configured integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-apimatic-conf-integr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-apimatic-conf-integr.png)
+![configured integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-apimatic-conf-integr.png)
 
 1. Click the **Add Integration** button to authorize a periodic backup of your collection to your Github repository.
 
-[![backup\_github](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_APImatic_backup_Github2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_APImatic_backup_Github2.png)
+![backup\_github](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_APImatic_backup_Github2.png)
 
 **Note**: If you are not signed in to Github, a Github login box appears. Enter your Github username and password, and click the **Sign in** button.
 
 1. Click the **Authorize** button to summon the authorization page, which lets you configure the backup to Github.
 
-[![github apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-authorized1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-authorized1-a.png)
+![github apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-authorized1-a.png)
 
 1. To back up a collection periodically to a Github repository:
 

@@ -11,7 +11,7 @@ warning: false
 Audit logs is an Enterprise-only feature that lists important team events. An admin can review audit logs to determine:
 
 * When users were added to the team.
-* When users received an invitation to a team. 
+* When users received an invitation to a team.
 * Which user performed a specific action.
 
 Audit logs currently include events for team management, billing, and security. In the future, we'll enable events for publishing documentation, creating API keys, and creating monitors.
@@ -20,11 +20,11 @@ Audit logs currently include events for team management, billing, and security. 
 
 In your [Enterprise workspace](https://app.getpostman.com/dashboard), click the Settings icon, and select "Audit logs".
 
-[![audit logs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)
+![audit logs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)
 
 In the [Audit Logs](https://app.getpostman.com/dashboard/audit) page, you see information categorized as USER, EVENT NAME, EVENT DESCRIPTION, and DATE.
 
-[![audit logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)
+![audit logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)
 
 For more information about audit logs and how to set it up for your Postman Enterprise team, contact our [Enterprise support team](https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).
 

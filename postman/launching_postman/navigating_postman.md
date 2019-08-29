@@ -8,7 +8,7 @@ warning: false
 
 Postman provides a multi-window and multi-tab interface for you to work on APIs. This interface design gives you as much space as possible for your APIs.
 
-[![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
+![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
 
 ## Sidebar
 
@@ -28,7 +28,7 @@ Learn more about [collections](/postman/collections/creating_collections.md) and
 
 ## Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 The header toolbar contains these options:
 
@@ -67,11 +67,11 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 * Open the [keyboard shortcuts.](/postman/launching_postman/keyboard_shortcuts.md)
 * Get help or provide feedback.
 
-[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)
+![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)
 
 When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/README.md), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
+![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
 
 ## Tabs and Windows
 
@@ -95,7 +95,7 @@ By default, Postman assumes you want to work on one collection request in one ta
 
 Postman offers several tab actions to help you manage your work.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)
+![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)
 
 To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown menu appears with options to manage your tabs.
 
@@ -110,7 +110,7 @@ When you "Force Close Current Tab" or "Force Close All Tabs", the tab closes imm
 
 When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", a dialogue box appears with an option to save your work.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)
+![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)
 
 ### Moving requests
 
@@ -134,7 +134,7 @@ We've configured the available horizontal and vertical space more effectively to
 
 On hover, relevant features display for a specific row to reduce clutter in the interface and help you focus on the most relevant data.
 
-[![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)
+![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)
 
 You can use the [keyboard shortcuts](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/keyboard_shortcuts/README.md#data-editor) to navigate the data editor.
 
@@ -142,29 +142,29 @@ You can use the [keyboard shortcuts](https://github.com/kaustavdm/postman-docs-t
 
 Drag your mouse to select multiple rows.
 
-[![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)
+![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)
 
 ### Bulk actions
 
 You can select and copy multiple rows and then paste them in a different places \(such as 'params'\).
 
-[![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)
+![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)
 
 ### Front view of information
 
 You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.
 
-[![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)
+![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)
 
 ### Resizing columns
 
 You can change the width of the key and value columns when you drag the boundary on the right side of the ‘key’ column header.
 
-[![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)
+![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)
 
 ### Multiline support
 
 The data editor supports sending multiline values. Press 'Enter' in a key or value field to expand it and move the cursor to a new line.
 
-[![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)
+![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)
 

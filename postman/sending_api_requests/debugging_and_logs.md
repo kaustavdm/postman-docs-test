@@ -27,7 +27,7 @@ To access the console logs, follow these steps:
 * Head to `View` in the application menu, and click on "Show DevTools".
 * In the DevTools window, clicking on the top level Console tab should show the app's debug logs.
 
-[![DevTools view of logs](https://www.getpostman.com/img/v1/docs/errors_console.png)](https://www.getpostman.com/img/v1/docs/errors_console.png)
+![DevTools view of logs](https://www.getpostman.com/img/v1/docs/errors_console.png)
 
 ### For the Chrome app
 
@@ -35,7 +35,7 @@ To access the console logs, follow these steps:
 * Search for "packed" or try to find the "Enable debugging for packed apps" setting.
 * Enable the setting.
 
-  [![enable in chrome settings](https://www.getpostman.com/img/v1/docs/flags.png)](https://www.getpostman.com/img/v1/docs/flags.png)
+  ![enable in chrome settings](https://www.getpostman.com/img/v1/docs/flags.png)
 
 * Restart Chrome. Once this is done, you can access the Developer Tools window by right clicking anywhere inside Postman and selecting "inspect element". You can also go to `chrome://inspect/#apps` and then click "inspect" just below requester.html under the Postman heading.
 
@@ -45,11 +45,11 @@ To access the console logs, follow these steps:
 
 Head to `View` in the application menu, and click on "Show Postman Console" or use the keyboard shortcut **\(CMD/CTRL + ALT + C\)**. Similar to DevTools, every call along with its headers and payloads will be logged to the Postman Console.
 
-[![show Postman console](https://cloud.githubusercontent.com/assets/1330851/20257546/4546dd8e-aa70-11e6-8242-1f6872899420.png)](https://cloud.githubusercontent.com/assets/1330851/20257546/4546dd8e-aa70-11e6-8242-1f6872899420.png)
+![show Postman console](https://cloud.githubusercontent.com/assets/1330851/20257546/4546dd8e-aa70-11e6-8242-1f6872899420.png)
 
 ### For the Chrome app
 
 You can also use the DevTools window to inspect the request and response payloads. If the Interceptor is disabled, switch to the Network tab, and you should see each call as it's made. Clicking on this will let you view the headers and payloads for the requests and responses:
 
-[![show DevTools console](https://www.getpostman.com/img/v1/docs/errors_network.png)](https://www.getpostman.com/img/v1/docs/errors_network.png)
+![show DevTools console](https://www.getpostman.com/img/v1/docs/errors_network.png)
 

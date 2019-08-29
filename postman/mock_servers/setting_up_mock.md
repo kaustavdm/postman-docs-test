@@ -21,11 +21,11 @@ This topic only covers how to create a mock with the **New** button and the Laun
 
 In the header toolbar, click the **New** button.
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)
+![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)
 
 The Create New tab appears.
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)
+![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
 
@@ -33,7 +33,7 @@ Click "Mock Server".
 
 Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections.
 
-[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)
+![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)
 
 After you select or create the request you want to mock, click the **Next** button.
 
@@ -46,13 +46,13 @@ In the Configure mock server tab, you must:
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
 
-[![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png)
+![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png)
 
 Click the **Create** button.
 
 In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
-[![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.png)
+![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.png)
 
 ## Launch screen
 

@@ -21,7 +21,7 @@ Permissions to perform certain tasks and/or operations are assigned to specific 
 
 The diagram below illustrates the roles in Postman:
 
-[![roles overview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC3.png)
+![roles overview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC3.png)
 
 The following is a brief outline of the main roles:
 

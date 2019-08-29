@@ -28,9 +28,9 @@ You can access Postman Pro integrations in the [Dashboard.](https://go.postman.c
 
 In the Dashboard page, click ["Integrations"](https://go.postman.co/workspaces).
 
-[![integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Integrations-Dashboard1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Integrations-Dashboard1.png)
+![integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Integrations-Dashboard1.png)
 
-The Integrations page lists all the currently available integrations for Postman Pro users.   
-   
- [![integrations2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Integrations-Dashboard2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Integrations-Dashboard2.png)
+The Integrations page lists all the currently available integrations for Postman Pro users.
+
+ ![integrations2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Integrations-Dashboard2.png)
 

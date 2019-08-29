@@ -16,16 +16,16 @@ Let's review how to [send a basic request](/postman/launching_postman/sending_th
 
 Enter a request in the request builder and click the **Save** button to open the **SAVE REQUEST** modal.
 
-[![request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest1.png)
+![request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest1.png)
 
 * As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
 * As an optional step, enter a request description in plain text or using [Markdown](/postman/collections/using_markdown_for_descriptions.md).
 
 Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button.
 
-[![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
+![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
 Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated in the screen below:
 
-[![collection sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Creating_first_collection_sidebar1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Creating_first_collection_sidebar1.png)
+![collection sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Creating_first_collection_sidebar1.png)
 

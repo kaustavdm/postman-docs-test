@@ -44,7 +44,7 @@ In this example:
 2. The Interceptor is listening for any calls made by the Chrome browser and captures the request, forwards the request onward, and also sends the request to Postman.
 3. The web server returns a response directly to the Chrome browser.
 
-[![interceptor workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptor.png)
+![interceptor workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptor.png)
 
 There is no need to install or configure a proxy. There are no code changes required either. You can filter requests according to the URL based on a regular expression. If you have a web app for which you don’t have a collection built already, or you just want to debug the APIs that your app is using, this can save a lot of time. The Postman Chrome app can be used in tandem with the Postman Interceptor extension to make and capture requests. It can also capture and manipulate cookies or set certain HTTP headers that are blocked on the Chrome platform by default.
 
@@ -63,7 +63,7 @@ Here how to get started:
 
 You can use the Interceptor extension to capture cookies. With the Interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests. Ensure you set the **Capture cookies** setting to _ON_. The following screen also illustrates this while showing you how to add and remove domains to capture cookies:
 
-[![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
+![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
 
 Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains \(m.facebook.com\). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman \(cookie updates from the browser sync to Postman, not vice versa\). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
@@ -75,7 +75,7 @@ To learn more about how to manage cookies, refer to the section [Cookies](/postm
 
 Make sure the Interceptor is enabled in the Postman header toolbar.
 
-[![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)
+![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)
 
 Under the **Tests** tab, you can use the “responseCookies” object. This will return an array of cookie objects. To retrieve a particular name, use “postman.getResponseCookie\(cookieName\)”. This will return a single cookie object. Each cookie object will contain the following properties: domain, hostOnly, httpOnly, name, path, secure, session, storeId, value.
 
@@ -113,7 +113,7 @@ Unfortunately some headers are restricted by Chrome and the XMLHttpRequest speci
 
 However, sending these restricted headers is easy. Follow the steps below:
 
-[![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)
+![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)
 
 * Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
 * Once it’s installed, click on the icon again in the Postman app and toggle it on.

@@ -32,14 +32,14 @@ This section illustrates the possible user flows and guides you through the migr
 
 The next section explains the following scenarios:
 
-* [Team on Postman version 5/6](migrating_to_v7.md#team-on-postman-version-5/6) 
+* [Team on Postman version 5/6](migrating_to_v7.md#team-on-postman-version-5/6)
 * [Team user on Postman v7](migrating_to_v7.md#team-user-on-postman-v7)
 
 ### Team on Postman version 5/6
 
 If you are an admin, you can go to the [Postman dashboard](https://go.postman.co/settings/team/roles) and migrate to Postman v7.
 
-[![migration to v7](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)
+![migration to v7](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)
 
 Click **Migrate my team to v7** and Postman takes care of the next steps for you and your team.
 
@@ -64,9 +64,9 @@ If you are in a team and download Postman v7 when the entire team is on an older
 
 Please use the following links to download the latest Postman v6 version for your platform.
 
-* [Download Postman v6 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v6-latest) 
+* [Download Postman v6 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v6-latest)
 * [Download Postman v6 for Windows 64-bit](https://go.pstmn.io/dl-win64-v6-latest)
 * [Download Postman v6 for Windows 32-bit](https://go.pstmn.io/dl-win32-v6-latest)
-* [Download Postman v6 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v6-latest) 
-* [Download Postman v6 for Linux 32-bit](https://go.pstmn.io/dl-linux32-v6-latest) 
+* [Download Postman v6 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v6-latest)
+* [Download Postman v6 for Linux 32-bit](https://go.pstmn.io/dl-linux32-v6-latest)
 

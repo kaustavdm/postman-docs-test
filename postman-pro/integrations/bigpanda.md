@@ -18,19 +18,19 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. Log in to your [BigPanda](https://bigpanda.io/) account and select "Integrations" in the header toolbar, then click the **New Integration** button.
 
-[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_bigPanda_details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_bigPanda_details2.png)
+![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_bigPanda_details2.png)
 
 1. Click "Alerts REST API" and then click the **Integrate** button.
 
-[![alerts REST API](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58834897.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58834897.png)
+![alerts REST API](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58834897.png)
 
 1. To generate the App key, enter a name for the integration and click the **Generate App Key** button.
 
-[![generate app key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda_generateAppkey.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda_generateAppkey.png)
+![generate app key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda_generateAppkey.png)
 
 The generated App Key displays.
 
-[![results app key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-appKey.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-appKey.png)
+![results app key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-appKey.png)
 
 1. Save the generated App key and the API key for use later.
 
@@ -51,7 +51,7 @@ You can send the results of multiple monitors to the same BigPanda collection.
 
 ## Viewing alerts in BigPanda
 
-1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors. 
+1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
 
@@ -68,5 +68,5 @@ You can send the results of multiple monitors to the same BigPanda collection.
 
 BigPanda gives you real-time alerts based on the results of your Postman Monitors. If there was a failed test or if an error occurred during the run, an alert is created on BigPanda, which would then alert the user.
 
-[![view in bigpanda](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58835364.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58835364.png)
+![view in bigpanda](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58835364.png)
 

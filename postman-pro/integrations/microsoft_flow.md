@@ -16,13 +16,13 @@ You can configure Microsoft Flow with Postman to monitor run results, view team 
 
 1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![microsoft\_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)
+![microsoft\_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)
 
 Click the **View Details** button to see information about HipChat.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
 
-[![microsoft\_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)
+![microsoft\_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)
 
 ### Add a team activity feed to Microsoft Flow
 
@@ -34,7 +34,7 @@ To add a team activity feed to Microsoft Flow:
 2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 3. Click the **Add Integration** button.
 
-[![microsoft\_team\_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
+![microsoft\_team\_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 
 ### Back up your Postman Collections in Microsoft Flow
 
@@ -49,7 +49,7 @@ To back up your Postman Collections in Microsoft Flow:
 5. Enter an identifier for this integration.
 6. Click the **Add Integration** button.
 
-[![microsoft\_flow\_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)
+![microsoft\_flow\_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)
 
 ### See collection activity feed in Microsoft Flow
 
@@ -68,26 +68,26 @@ Postman Monitors allows you to run your collections on a schedule without any ma
 To send monitor run results to Microsoft Flow:
 
 1. Click the **Add Integration** button.
-2. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Flow. 
+2. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Flow.
 3. Click the **Add Integration** button.
 
-[![microsoft\_mon\_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)
+![microsoft\_mon\_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
 And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
 
-[![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
+![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
 
 ### Get the Microsoft Flows webhook URL
 
 Log in to [Microsoft Flow](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
 
-[![create connector](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)
+![create connector](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)
 
 To add the first step, type `request` in the search bar, and select `Request / Response - Request` from the `Triggers` list.
 
-[![select trigger](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)
+![select trigger](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)
 
 For different types of integrations, the JSON schema varies. The following shows which schema to use for each one.
 
@@ -118,7 +118,7 @@ For different types of integrations, the JSON schema varies. The following shows
     "metrics": {
       "id": "/properties/metrics",
       "properties": {
-        "errors": 
+        "errors":
           "id": "/properties/metrics/properties/errors",
           "type": "integer"
         },
@@ -233,19 +233,19 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-[![request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)
+![request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)
 
 Once that is done, click on `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Flow mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Flow mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
 
-[![add action](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)
+![add action](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)
 
-[![notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)
+![notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)
 
 You can customize the text notifications by choosing your wording and adding content derived from your Postman Monitor run results.
 
-[![enter text](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)
+![enter text](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)
 
 Once this is done, click on `Create Flow` on the top-right corner. Once your flow has been created, you will be needing the webhook URL generated by Flow. To obtain that, click on the `Request` trigger and you will find your generated webhook URL.
 
-[![generated webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)
+![generated webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)
 
