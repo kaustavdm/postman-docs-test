@@ -1,2 +1,2 @@
-# managing\_pro
+# Managing Postman Pro
 
