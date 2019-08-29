@@ -37,13 +37,13 @@ The collection or folder you want to run.
 
 When you run a collection, all requests in the collection are sent in the order they appear in the main app. As a result each folder is run, and each request inside the folder, is sequentially executed. When you select a folder, only that folder is executed and only requests inside the folder are sent. You can, however, change the order to more closely mirror your workflow when you use the `postman.setNextRequest()` method. You will also be able to use the collection runner for form-data request and binary file bodies containing files.
 
-To learn more about how to build a workflow, see [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md).
+To learn more about how to build a workflow, see [Building workflows](postman/collection_runs/building_workflows.md).
 
 ## Environment
 
 The environment to use when a collection runs.
 
-To learn how to use environments in collection runs, see [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md).
+To learn how to use environments in collection runs, see [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md).
 
 ## Iterations
 
@@ -51,7 +51,7 @@ The number of times the collection will run.
 
 Sending different data in each iteration and setting a higher iteration counts usually ensures the stability of your APIs.
 
-To learn how to run multiple iterations, see [Running multiple iterations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/running_multiple_iterations/README.md).
+To learn how to run multiple iterations, see [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md).
 
 ## Delay
 
@@ -69,19 +69,19 @@ Here's more detail about default logging:
 * For failed requests, only responses for requests with at least one failing test will be logged.
 * For no requests, no responses will be logged.
 
-To learn how to debug collection requests, see [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md).
+To learn how to debug collection requests, see [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md).
 
 ## Data
 
 Supplies a data file to use for the collection run.
 
-To learn more about how to use a date file for a collection run, see [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md).
+To learn more about how to use a date file for a collection run, see [Working with data files](postman/collection_runs/working_with_data_files.md).
 
 ## Persist variables
 
 By default, any environment changes in the collection runner are not reflected in the request builder. Enabling this option saves the values of the variables at the end of the run, **overwriting previous values**.
 
-To learn more about Keep variable values in a collection run, see [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md).
+To learn more about Keep variable values in a collection run, see [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md).
 
 ## Run collection without using stored cookies
 
@@ -93,14 +93,14 @@ A request in the collection may create/update cookies during execution. The Coll
 
 For more information about collections runs, see:
 
-* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
-* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
-* [Running multiple iterations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/running_multiple_iterations/README.md)
-* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
-* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
-* [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md)
-* [Command line integration with Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md)
-* [Integration with Jenkins](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_jenkins/README.md)
-* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
-* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
+* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
 

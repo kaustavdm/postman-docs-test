@@ -36,8 +36,8 @@ To set the number of monitoring blocks, click the “Set Monitoring Block Count�
 
 To set the monitoring block count:
 
-* Click the “Set Monitoring Block Count” in the “Your Current Plan” section in the Billing Overview. 
-* Select the number of blocks you want to purchase each month. Each block translates to 50,000 monitoring calls and costs $20 per month. 
+* Click the “Set Monitoring Block Count” in the “Your Current Plan” section in the Billing Overview.
+* Select the number of blocks you want to purchase each month. Each block translates to 50,000 monitoring calls and costs $20 per month.
 * Click the **Proceed** button. Review the details of your purchase and click the **Pay** button. Your default payment method is charged immediately, and every month on this date.
 
 ## Account History
@@ -83,8 +83,8 @@ A print dialogue will open up where you can save this invoice or print it direct
 
 For more information on Billing, see:
 
-* [Change your plan \(Pro Monthly\)](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/pro/managing_pro/changing_your_plan/README.md)
-* [Add user slots to your plan \(Pro Annual\)](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/pro/managing_pro/changing_your_plan/README.md)
-* [Set instructions for next billing cycle](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/pro/managing_pro/changing_your_plan/README.md)
-* [Cancel your plan](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/pro/managing_pro/changing_your_plan/README.md)
+* [Change your plan \(Pro Monthly\)](pro/managing_pro/changing_your_plan.md)
+* [Add user slots to your plan \(Pro Annual\)](pro/managing_pro/changing_your_plan.md)
+* [Set instructions for next billing cycle](pro/managing_pro/changing_your_plan.md)
+* [Cancel your plan](pro/managing_pro/changing_your_plan.md)
 

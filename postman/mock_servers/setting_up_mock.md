@@ -12,10 +12,10 @@ You can create a mock in several ways:
 
 * Using the **New** button
 * From the Launch screen
-* In the [Postman app using Examples](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mocking_with_examples/README.md)
-* Using the [Postman API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mock_with_api/README.md)
+* In the [Postman app using Examples](postman/mock_servers/mocking_with_examples.md)
+* Using the [Postman API](postman/mock_servers/mock_with_api.md)
 
-This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mocking_with_examples/README.md) or the [Postman API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mock_with_api/README.md), click the corresponding link for detailed information.
+This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](postman/mock_servers/mocking_with_examples.md) or the [Postman API](postman/mock_servers/mock_with_api.md), click the corresponding link for detailed information.
 
 ## New button
 
@@ -68,7 +68,7 @@ Follow the steps in the previous **New** button section.
 
 ## Using HTTP access control for a mock
 
-In addition to using the [Postman app](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mocking_with_examples/README.md) to make requests to mock endpoints, you also can make those requests in a browser.
+In addition to using the [Postman app](postman/mock_servers/mocking_with_examples.md) to make requests to mock endpoints, you also can make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.
 
@@ -86,8 +86,8 @@ You can check your usage limits in the [Postman API](https://docs.api.getpostman
 
 For more information about mock servers, see:
 
-* [Intro to mock servers](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/intro_to_mock_servers/README.md)
-* [Mocking with examples](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mocking_with_examples/README.md)
-* [Mocking with the Postman API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mock_with_api/README.md)
-* [Matching algorithm \(for mocks\)](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/matching_algorithm/README.md)
+* [Intro to mock servers](postman/mock_servers/intro_to_mock_servers.md)
+* [Mocking with examples](postman/mock_servers/mocking_with_examples.md)
+* [Mocking with the Postman API](postman/mock_servers/mock_with_api.md)
+* [Matching algorithm \(for mocks\)](postman/mock_servers/matching_algorithm.md)
 

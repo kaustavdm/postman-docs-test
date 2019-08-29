@@ -34,7 +34,7 @@ You can use scripts to pass data between API requests and build workflows that m
 
 For more information on collections, see:
 
-* [Creating collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/creating_collections/README.md)
-* [Sharing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md)
-* [Managing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/managing_collections/README.md)
+* [Creating collections](postman/collections/creating_collections.md)
+* [Sharing collections](postman/collections/sharing_collections.md)
+* [Managing collections](postman/collections/managing_collections.md)
 

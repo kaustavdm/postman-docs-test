@@ -103,15 +103,15 @@ A few features exclusive to the native apps are listed here:
 
 #### Cookies
 
-The native apps let you work with [cookies](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/cookies/README.md) directly. Unlike the Chrome app, no separate extension \([Interceptor](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/interceptor_extension/README.md)\) is needed.
+The native apps let you work with [cookies](postman/sending_api_requests/cookies.md) directly. Unlike the Chrome app, no separate extension \([Interceptor](postman/sending_api_requests/interceptor_extension.md)\) is needed.
 
 #### Built-in proxy
 
-The native apps come with a built-in proxy that you can use to [capture network traffic](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/capturing_http_requests/README.md).
+The native apps come with a built-in proxy that you can use to [capture network traffic](postman/sending_api_requests/capturing_http_requests.md).
 
 #### Menu bar
 
-The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can check for updates, create Postman Windows and tabs, edit preferences, and can perform many other tasks. More on [navigating the Postman App](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/navigating_postman/README.md).
+The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can check for updates, create Postman Windows and tabs, edit preferences, and can perform many other tasks. More on [navigating the Postman App](postman/launching_postman/navigating_postman.md).
 
 #### Restricted headers
 

@@ -6,9 +6,9 @@ warning: false
 
 # Viewing monitor results
 
-You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/setting_up_monitor/README.md) in the settings.
+You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](postman/monitors/setting_up_monitor.md) in the settings.
 
-In addition, you can receive important notifications \(both [in-app](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/notifications/README.md) and email\) if a monitor fails.
+In addition, you can receive important notifications \(both [in-app](postman/notifications.md) and email\) if a monitor fails.
 
 [![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)
 
@@ -44,5 +44,5 @@ You can also view the log when you click the **Console Log** tab.
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)
 
-The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/troubleshooting_monitors/README.md).
+The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](postman/monitors/troubleshooting_monitors.md).
 

@@ -12,7 +12,7 @@ Some teams use Postman monitors to ensure their APIs and websites remain operati
 
 ### Monitoring a specific endpoint
 
-To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/test_scripts/README.md).
+To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](postman/scripts/test_scripts.md).
 
 ### Monitoring an entire API
 

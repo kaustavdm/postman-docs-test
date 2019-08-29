@@ -39,7 +39,7 @@ Navigate to the APIs tab and click **Create an API** button, shown in a red circ
 
 Specify a name for your API and click the '☑' adjacent to the name. Your API is created.
 
-You can create different API versions from a specific version of your API. For more information on this, refer to the section [Creating API versions](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/versioning_an_api/README.md).
+You can create different API versions from a specific version of your API. For more information on this, refer to the section [Creating API versions](postman/design_and_develop_apis/versioning_an_api.md).
 
 **Note:** Free users can create up to three APIs, Pro users up to 10, and Enterprise users up to 100.
 
@@ -59,7 +59,7 @@ To rename an API, select the API in the sidebar. On the top right corner, click 
 
 Specify a new name and press enter.
 
-You can also rename the versions associated with your APIs. For more information on this, refer to the section [Renaming API version tags](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/versioning_an_api/README.md).
+You can also rename the versions associated with your APIs. For more information on this, refer to the section [Renaming API version tags](postman/design_and_develop_apis/versioning_an_api.md).
 
 ## Deleting an API
 
@@ -71,15 +71,15 @@ A delete confirmation message appears:
 
 [![api delete2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete2.png)
 
-When you delete an API, the collections, monitors, mocks, and environments linked to it are not deleted. For a more detailed understanding on this topic, refer to [Sharing APIs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/sharing_apis/README.md)
+When you delete an API, the collections, monitors, mocks, and environments linked to it are not deleted. For a more detailed understanding on this topic, refer to [Sharing APIs](postman/design_and_develop_apis/sharing_apis.md)
 
-You can also delete specific versions of your APIs. For more information on this, refer to the section [Deleting an API version](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/versioning_an_api/README.md).
+You can also delete specific versions of your APIs. For more information on this, refer to the section [Deleting an API version](postman/design_and_develop_apis/versioning_an_api.md).
 
 ## Removing an API from a workspace
 
 From the Postman app, you can remove an API from the sidebar. Click the ellipsis \(...\) next to the API you would like to remove, select **Remove from workspace** and confirm that you would like to remove the API from the current workspace. The API will no longer be visible in the workspace.
 
-When you remove an API from a workspace, the collections, monitors, mocks, and environments linked to it are not removed. For a more detailed understanding on this topic, refer to [Sharing APIs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/sharing_apis/README.md).
+When you remove an API from a workspace, the collections, monitors, mocks, and environments linked to it are not removed. For a more detailed understanding on this topic, refer to [Sharing APIs](postman/design_and_develop_apis/sharing_apis.md).
 
 You will be able to perform all these user actions even from the dashboard, as illustrated in the screen below:
 
@@ -87,12 +87,12 @@ You will be able to perform all these user actions even from the dashboard, as i
 
 ## Commenting on APIs
 
-You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/commenting_on_collections/README.md)
+You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](postman/collections/commenting_on_collections.md)
 
 For more information on APIs, see:
 
-* [Sharing an API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/sharing_apis/README.md)
-* [Managing API workflow](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/the_api_workflow/README.md)
-* [Versioning an API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/versioning_an_api/README.md)
-* [Introduction to APIs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/introduction_to_apis/README.md)
+* [Sharing an API](postman/design_and_develop_apis/sharing_apis.md)
+* [Managing API workflow](postman/design_and_develop_apis/the_api_workflow.md)
+* [Versioning an API](postman/design_and_develop_apis/versioning_an_api.md)
+* [Introduction to APIs](postman/design_and_develop_apis/introduction_to_apis.md)
 

@@ -12,7 +12,7 @@ The instructions below are for paying via credit card. If you need to pay via pu
 
 ## Upgrade your plan
 
-To upgrade your plan to a Postman Enterprise subscription, you will need a [Postman account](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/postman_account/README.md).
+To upgrade your plan to a Postman Enterprise subscription, you will need a [Postman account](postman/launching_postman/postman_account.md).
 
 Log in to your Postman account, and go to the [billing page](https://go.postman.co/billing/overview). Next to your current plan, click the **Upgrade** button. For existing Postman Pro users, click the ellipsis _\(...\)_ next to the **Upgrade** button and select the "Change plan" option.
 
@@ -38,7 +38,7 @@ Enter your credit card billing and payment details. The subscription for Postman
 
 [![credit card 2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-cc2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-cc2.png)
 
-Once you've successfully submitted your payment details, you can see your current plan back on the billing page. Next, you can add user slots and [manage your team members' roles](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/managing_postman_pro/managing_your_team/README.md) or [set up monitoring blocks](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/pricing_monitors/README.md#request-blocks-for-paid-pro-teams).
+Once you've successfully submitted your payment details, you can see your current plan back on the billing page. Next, you can add user slots and [manage your team members' roles](postman_pro/managing_postman_pro/managing_your_team.md) or [set up monitoring blocks](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/pricing_monitors/README.md#request-blocks-for-paid-pro-teams).
 
 [![enterprise confirmation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise4.png)
 

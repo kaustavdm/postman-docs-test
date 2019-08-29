@@ -49,15 +49,15 @@ Check our [blog post](https://blog.getpostman.com/2015/08/07/using-the-newman-do
 
 For more information on collection runs, see:
 
-* [Starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md)
-* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
-* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
-* [Running multiple iterations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/running_multiple_iterations/README.md)
-* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
-* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
-* [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md)
-* [Command line integration with Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md)
-* [Integration with Jenkins](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_jenkins/README.md)
-* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
-* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
+* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
 

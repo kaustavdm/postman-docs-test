@@ -14,7 +14,7 @@ Before sending an actual request, front-end developers can create a mock server 
 
 ## Why use mock servers
 
-Creating a [mock example](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/examples/README.md) during the earliest phase of API development fosters clear communication among team members and aligns their expectations.
+Creating a [mock example](postman/collections/examples.md) during the earliest phase of API development fosters clear communication among team members and aligns their expectations.
 
 As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
@@ -36,8 +36,8 @@ Mock servers are public by default. Public mock servers are accessible to anyone
 
 For more information about mock servers, see:
 
-* [Setting up a mock server](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/setting_up_mock/README.md)
-* [Mocking with examples](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mocking_with_examples/README.md)
-* [Mocking with the Postman API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/mock_with_api/README.md)
-* [Matching algorithm \(for mocks\)](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/matching_algorithm/README.md)
+* [Setting up a mock server](postman/mock_servers/setting_up_mock.md)
+* [Mocking with examples](postman/mock_servers/mocking_with_examples.md)
+* [Mocking with the Postman API](postman/mock_servers/mock_with_api.md)
+* [Matching algorithm \(for mocks\)](postman/mock_servers/matching_algorithm.md)
 

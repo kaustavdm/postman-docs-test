@@ -110,7 +110,7 @@ Once you request, your request will be acknowledged and in due course your reque
 
 [![Download Data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Data1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Data1.png)
 
-Alternatively, you can also download your archived data directly from the Postman App. To know more about this, refer to [Settings](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/settings/README.md) section.
+Alternatively, you can also download your archived data directly from the Postman App. To know more about this, refer to [Settings](postman/launching_postman/settings.md) section.
 
 To download your archived collections, you must choose the second option Download all data including data in workspaces I have joined. The first option in the above screen downloads only your data in personal workspaces.
 

@@ -165,11 +165,11 @@ Click the ellipsis \(...\) to expand the control dropdown.
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md), [import and export collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/data_formats/README.md), and [use other collection features](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/managing_collections/README.md).
+Learn how to [share collections](postman/collections/sharing_collections.md), [import and export collections](postman/collections/data_formats.md), and [use other collection features](postman/collections/managing_collections.md).
 
 For more information on collections, see:
 
-* [Intro to collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/intro_to_collections/README.md)
-* [Sharing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md)
-* [Managing collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/managing_collections/README.md)
+* [Intro to collections](postman/collections/intro_to_collections.md)
+* [Sharing collections](postman/collections/sharing_collections.md)
+* [Managing collections](postman/collections/managing_collections.md)
 

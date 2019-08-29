@@ -6,7 +6,7 @@ warning: false
 
 # Sharing collections in Workspaces for version 5
 
-In versions 5.5 and below, teams work collaboratively in a Team Library. In a Team Library, you can share collections, environmental templates, view team updates, and subscribe to shared collections. However [Workspaces](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/workspaces/intro_to_workspaces/README.md) provides greater visibility and easier access to shared collections.
+In versions 5.5 and below, teams work collaboratively in a Team Library. In a Team Library, you can share collections, environmental templates, view team updates, and subscribe to shared collections. However [Workspaces](postman/workspaces/intro_to_workspaces.md) provides greater visibility and easier access to shared collections.
 
 Now you can organize collections for projects in separate Workspaces. In each Workspace you can add or create collections, and invite others to collaborate. Members of those Workspaces can see when others add or change it. In addition a collection can exist in other Workspaces at the same time. Any changes to these Workspace collections are visible everywhere they reside.
 

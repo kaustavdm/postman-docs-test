@@ -39,8 +39,8 @@ In the [workspaces dashboard](https://app.getpostman.com/dashboard), click the *
 
 For more information on APIs, see:
 
-* [Managing APIs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/managing_apis/README.md)
-* [Managing API workflow](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/the_api_workflow/README.md)
-* [Versioning an API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/versioning_an_api/README.md)
-* [Introduction to APIs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/introduction_to_apis/README.md)
+* [Managing APIs](postman/design_and_develop_apis/managing_apis.md)
+* [Managing API workflow](postman/design_and_develop_apis/the_api_workflow.md)
+* [Versioning an API](postman/design_and_develop_apis/versioning_an_api.md)
+* [Introduction to APIs](postman/design_and_develop_apis/introduction_to_apis.md)
 

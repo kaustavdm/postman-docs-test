@@ -8,7 +8,7 @@ tags:
 
 # Integration with Jenkins
 
-Postman contains a full-featured [testing sandbox](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox/README.md) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md), the command line collection runner for Postman.
+Postman contains a full-featured [testing sandbox](postman/scripts/postman_sandbox.md) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](postman/collection_runs/command_line_integration_with_newman.md), the command line collection runner for Postman.
 
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation.
 
@@ -111,13 +111,13 @@ You can use a wide variety of other configurations to make your collection more 
 
 For more information about collection runs, see:
 
-* [Starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md)
-* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
-* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
-* [Running multiple iterations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/running_multiple_iterations/README.md)
-* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
-* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
-* [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md)
-* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
-* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
+* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](postman/collection_runs/working_with_data_files.md)
+* [Running multiple iterations](postman/collection_runs/running_multiple_iterations.md)
+* [Building workflows](postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
+* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
 

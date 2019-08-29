@@ -8,11 +8,11 @@ warning: false
 
 ## What is monitoring?
 
-Postman monitoring lets you run a [collection](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/creating_collections/README.md) periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes to check if all the requests in your collection are up and healthy.
+Postman monitoring lets you run a [collection](postman/collections/creating_collections.md) periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes to check if all the requests in your collection are up and healthy.
 
-When you set up a monitor, Postman servers will hit the endpoints in your collection according to the specified frequency. You can also select a corresponding [environment](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_environments/README.md) to use and store variables. If you have written [tests](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/test_scripts/README.md) for your requests, the monitor would run these tests to validate the response and notify you when a test fails. You can configure how to receive the alerts from a wide number of [integrations](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/integrations/intro_integrations/README.md) available.
+When you set up a monitor, Postman servers will hit the endpoints in your collection according to the specified frequency. You can also select a corresponding [environment](postman/environments_and_globals/manage_environments.md) to use and store variables. If you have written [tests](postman/scripts/test_scripts.md) for your requests, the monitor would run these tests to validate the response and notify you when a test fails. You can configure how to receive the alerts from a wide number of [integrations](postman_pro/integrations/intro_integrations.md) available.
 
-Each Postman user gets 1,000 monitoring calls for free per month. Paid teams have higher limits: Postman Pro teams have 10,000 monthly monitoring calls included, and Enterprise teams have 100,000 free monthly requests. It is very simple to set up a monitor. Learn more about [monitoring pricing](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/pricing_monitors/README.md) and [getting started with monitors](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/setting_up_monitor/README.md).
+Each Postman user gets 1,000 monitoring calls for free per month. Paid teams have higher limits: Postman Pro teams have 10,000 monthly monitoring calls included, and Enterprise teams have 100,000 free monthly requests. It is very simple to set up a monitor. Learn more about [monitoring pricing](postman/monitors/pricing_monitors.md) and [getting started with monitors](postman/monitors/setting_up_monitor.md).
 
 **Note:** Setting up monitors by minutes is not available for free users. If you are a free user, you can schedule your monitor runs on an hourly, daily or a weekly basis.
 
@@ -23,7 +23,7 @@ There are a few minor differences between running collections in a Postman monit
 ### Variables
 
 * Can't import existing global variables, but you can create new ones during a monitor run.
-* Global and environment variables are not persisted. If you require persisting environment variables, we recommend adding a call to update the environment variable using the [Postman API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/postman_api/intro_api/README.md). The following is an [example of how to update the environment variable](https://documenter.getpostman.com/view/218543/lunch-picker/6fWy4Ao#fe7e2416-4af9-fffc-02af-b8fc2c58a181) in this manner.
+* Global and environment variables are not persisted. If you require persisting environment variables, we recommend adding a call to update the environment variable using the [Postman API](postman/postman_api/intro_api.md). The following is an [example of how to update the environment variable](https://documenter.getpostman.com/view/218543/lunch-picker/6fWy4Ao#fe7e2416-4af9-fffc-02af-b8fc2c58a181) in this manner.
 
 [![persist env in monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)
 
@@ -67,11 +67,11 @@ Monitoring resources across multiple regions provides useful information about t
 
 Postman supports monitoring in 6 geographic regions around the world. If you’re interested in a region that’s not listed in the Postman interface, contact us at [help@getpostman.com](mailto:help@getpostman.com) or through the chat box on the [monitors page](https://monitor.getpostman.com).
 
-For Postman Enterprise users, there is an additional option available to establish dedicated IP addresses for whitelisting and source logging to address security requirements for their team. For example, by setting up a static IP address for API monitoring, you can whitelist the dedicated IPs with your incoming servers to ensure they will accept requests from those IP addresses. Postman Enterprise users interested in [setting up static IPs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_enterprise/using_static_IPs_to_monitor/README.md) for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
+For Postman Enterprise users, there is an additional option available to establish dedicated IP addresses for whitelisting and source logging to address security requirements for their team. For example, by setting up a static IP address for API monitoring, you can whitelist the dedicated IPs with your incoming servers to ensure they will accept requests from those IP addresses. Postman Enterprise users interested in [setting up static IPs](postman_enterprise/using_static_IPs_to_monitor.md) for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
 
 ## Pricing for monitoring
 
-Monitoring is priced per request made, with some free requests included every month. Learn more about [monitoring pricing](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/pricing_monitors/README.md).
+Monitoring is priced per request made, with some free requests included every month. Learn more about [monitoring pricing](postman/monitors/pricing_monitors.md).
 
 ## Free monitoring calls with your Postman account
 

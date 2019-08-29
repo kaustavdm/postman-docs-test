@@ -41,7 +41,7 @@ An example of SSO is Google's implementation of login for their products, such a
 
 Most SAML 2.0 compliant identity providers require the same information about the service provider for setup \(Postman is the service provider\). These values are specific to a Postman Team and are available after configuring SSO in the Edit Team Page.
 
-Learn more about [setting up SSO](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/enterprise/sso/admin_sso/README.md).
+Learn more about [setting up SSO](enterprise/sso/admin_sso.md).
 
 **Note:** While configuring your IdP, make sure the user’s email address is set in attribute statements.
 

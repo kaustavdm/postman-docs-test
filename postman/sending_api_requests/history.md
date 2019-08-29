@@ -26,7 +26,7 @@ The requests are ordered by time, with the most recent requests displayed at the
 
 ### Multi-selecting requests
 
-Hold down the **CMD** key \(or **CTRL** on Windows\), and click on each request that you want to select. You can initiate actions like [saving](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/creating_collections/README.md), [sharing](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md), [documenting](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/intro_to_api_documentation/README.md), [mocking](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/intro_to_mock_servers/README.md), [monitoring](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/intro_monitors/README.md), or deleting on these requests through actions at the top of the list.
+Hold down the **CMD** key \(or **CTRL** on Windows\), and click on each request that you want to select. You can initiate actions like [saving](postman/collections/creating_collections.md), [sharing](postman/collections/sharing_collections.md), [documenting](postman/api_documentation/intro_to_api_documentation.md), [mocking](postman/mock_servers/intro_to_mock_servers.md), [monitoring](postman/monitors/intro_monitors.md), or deleting on these requests through actions at the top of the list.
 
 ### Save requests to a collection
 

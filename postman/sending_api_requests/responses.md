@@ -14,7 +14,7 @@ The response also contains the HTTP specification default description. However, 
 
 [![save response button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538745.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538745.png)
 
-If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/examples/README.md) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples.
+If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](postman/collections/examples.md) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples.
 
 [![access saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/examplesDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/examplesDropdown.png)
 
@@ -30,7 +30,7 @@ The pretty mode formats JSON or XML responses so they are easier to view. Nobody
 
 For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON or XML. You can force JSON formatting under the **General** tab in the **SETTINGS** modal. To do so. select "JSON" from the "Language detection" dropdown.
 
-**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See the complete set of [keyboard shortcuts](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/navigating_postman/README.md).
+**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See the complete set of [keyboard shortcuts](postman/launching_postman/navigating_postman.md).
 
 ### Raw
 
@@ -64,9 +64,9 @@ Postman breaks down the response size into body and headers. The response sizes 
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/cookies/README.md) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/interceptor_extension/README.md) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](postman/sending_api_requests/cookies.md) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](postman/sending_api_requests/interceptor_extension.md) to help manage cookies.
 
 ## Tests
 
-You can also see the results of the tests that were run against the request. Learn more about [testing](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/test_scripts/README.md) in Postman.
+You can also see the results of the tests that were run against the request. Learn more about [testing](postman/scripts/test_scripts.md) in Postman.
 

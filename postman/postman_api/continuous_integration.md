@@ -24,7 +24,7 @@ Follow the [steps to download Node](https://nodejs.org/en/download/package-manag
 
 ## Step 2: Install Newman
 
-[Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
+[Newman](postman/collection_runs/command_line_integration_with_newman.md) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
 
 ```bash
 npm i newman -g;

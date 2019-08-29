@@ -25,7 +25,7 @@ The diagram below illustrates the roles in Postman:
 
 The following is a brief outline of the main roles:
 
-* **Collection viewer** can view, run, and share a collection. When a viewer shares a collection it carries the same viewer permissions to the viewer with whom it is shared. 
+* **Collection viewer** can view, run, and share a collection. When a viewer shares a collection it carries the same viewer permissions to the viewer with whom it is shared.
 * **Collection editor** can manage a collection and controls the highest level administrative and security settings.
 * **Workspace collaborator** can view all resources in the workspace, has add and remove privileges, can create history, and even add members.
 * **Workspace admin** can edit workspace’s information like name, summary, settings, remove members and change workspace roles, and delete the workspace.
@@ -118,12 +118,12 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 * Team
 
   * _User_ changed to **Developer**
-  * Admin 
+  * Admin
   * Billing
 
   **Note:** In the Postman app UI, the right-click option _Modify team permissions_ has changed to **Manage Roles**. Also note that the older set of roles applied till Postman app version 6.
 
 ## Migrating to Postman v7
 
-To know more about migration-related information, please refer to [migrating to v7](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman_pro/managing_postman_pro/migrating_to_v7/README.md) section.
+To know more about migration-related information, please refer to [migrating to v7](postman_pro/managing_postman_pro/migrating_to_v7.md) section.
 

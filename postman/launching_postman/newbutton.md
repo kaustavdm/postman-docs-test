@@ -41,7 +41,7 @@ At the bottom of this window, you can select “Show this window at launch” to
 
 ## Create a request
 
-Under **BUILDING BLOCKS**, you can create any kind of [HTTP request](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/requests/README.md).
+Under **BUILDING BLOCKS**, you can create any kind of [HTTP request](postman/sending_api_requests/requests.md).
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Request".
@@ -53,7 +53,7 @@ After you save the request to a collection, you can add the URL, method, headers
 
 ## Create a collection
 
-Under **BUILDING BLOCKS**, you can create a [collection](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/creating_collections/README.md).
+Under **BUILDING BLOCKS**, you can create a [collection](postman/collections/creating_collections.md).
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Collection".
@@ -71,7 +71,7 @@ After creating the collection, you can save more requests to the collection and 
 
 ## Create an environment
 
-Under **BUILDING BLOCKS**, you can create an [environment](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/manage_environments/README.md). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
+Under **BUILDING BLOCKS**, you can create an [environment](postman/environments_and_globals/manage_environments.md). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Environment".
@@ -86,7 +86,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** screen appears
 
 ## Create a monitor
 
-Under **ADVANCED**, you can create a [monitor](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/intro_monitors/README.md) to run a collection periodically to check its performance and response. You can [set a monitor](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/setting_up_monitor/README.md) to run as frequently as every 5 minutes.
+Under **ADVANCED**, you can create a [monitor](postman/monitors/intro_monitors.md) to run a collection periodically to check its performance and response. You can [set a monitor](postman/monitors/setting_up_monitor.md) to run as frequently as every 5 minutes.
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
@@ -109,7 +109,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 ## Create documentation
 
-Under **ADVANCED**, you can create [public or private documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/intro_to_api_documentation/README.md) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
+Under **ADVANCED**, you can create [public or private documentation](postman/api_documentation/intro_to_api_documentation.md) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "API Documentation".
@@ -128,7 +128,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 ## Create a mock server
 
-A [mock server](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/setting_up_mock/README.md) simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response.
+A [mock server](postman/mock_servers/setting_up_mock.md) simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response.
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click “Mock Server”.
@@ -183,5 +183,5 @@ Once the collection is imported into Postman, you can see the collection in the 
 
 [![imported collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)
 
-If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [Publishing your documentation to the Postman API Network](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/publishing_public_docs/README.md).
+If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [Publishing your documentation to the Postman API Network](postman/api_documentation/publishing_public_docs.md).
 

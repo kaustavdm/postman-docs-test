@@ -24,8 +24,8 @@ For example, a test engineer working on test suites connected to an API might be
 
 For more information on APIs, see:
 
-* [Managing APIs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/managing_apis/README.md)
-* [Sharing an API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/sharing_apis/README.md)
-* [Managing API workflow](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/the_api_workflow/README.md)
-* [Versioning an API](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/design_and_develop_apis/versioning_an_api/README.md)
+* [Managing APIs](postman/design_and_develop_apis/managing_apis.md)
+* [Sharing an API](postman/design_and_develop_apis/sharing_apis.md)
+* [Managing API workflow](postman/design_and_develop_apis/the_api_workflow.md)
+* [Versioning an API](postman/design_and_develop_apis/versioning_an_api.md)
 

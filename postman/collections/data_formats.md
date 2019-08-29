@@ -18,7 +18,7 @@ Postman can export and import collections, environments, globals and header pres
 
 ## Exporting Postman data
 
-Postman can export and import the following formats as a file or generated URL. When you export a collection from the Postman app, the exported file is a JSON file. The file contains all data \(and metadata\) that is required by Postman to recreate the collection when imported back into Postman, or that is utilized by [Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md) to run the collection from the command line interface \(CLI\).
+Postman can export and import the following formats as a file or generated URL. When you export a collection from the Postman app, the exported file is a JSON file. The file contains all data \(and metadata\) that is required by Postman to recreate the collection when imported back into Postman, or that is utilized by [Newman](postman/collection_runs/command_line_integration_with_newman.md) to run the collection from the command line interface \(CLI\).
 
 ### Collections
 

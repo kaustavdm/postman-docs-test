@@ -8,7 +8,7 @@ warning: false
 
 ## What is a workspace?
 
-A workspace is a _view_ of all the Postman things you've come to use: [collections](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/intro_to_collections/README.md), [environments](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/environments_and_globals/intro_to_environments_and_globals/README.md), [mocks](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/mock_servers/intro_to_mock_servers/README.md), [monitors](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/intro_monitors/README.md), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
+A workspace is a _view_ of all the Postman things you've come to use: [collections](postman/collections/intro_to_collections.md), [environments](postman/environments_and_globals/intro_to_environments_and_globals.md), [mocks](postman/mock_servers/intro_to_mock_servers.md), [monitors](postman/monitors/intro_monitors.md), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
 [![WS\_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)
 
@@ -16,7 +16,7 @@ Regardless of the type of workspace, you can share elements in multiple workspac
 
 ## Personal workspaces
 
-Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/workspaces/creating_workspaces/README.md).
+Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](postman/workspaces/creating_workspaces.md).
 
 ## Team workspaces
 

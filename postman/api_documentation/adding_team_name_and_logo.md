@@ -31,7 +31,7 @@ Next hover over the logo under "Team Logo" in the "Style" section to see the **P
 
 Now click the **Pencil** icon and upload or drag or drop an image. Then click the **Upload** button to complete the process.
 
-This uploaded image displays in the header of your team's [published documentation](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/api_documentation/publishing_public_docs/README.md) replacing the Postman logo. It may take up to 5 minutes for the logo to update.
+This uploaded image displays in the header of your team's [published documentation](postman/api_documentation/publishing_public_docs.md) replacing the Postman logo. It may take up to 5 minutes for the logo to update.
 
 ## Delete your team logo
 

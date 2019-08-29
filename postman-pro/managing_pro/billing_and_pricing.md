@@ -34,5 +34,5 @@ When you purchase a Pro team online, the credit card info you enter is saved to 
 
 ## Pricing for Monitors
 
-Review details about [pricing for monitors](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/monitors/pricing_monitors/README.md).
+Review details about [pricing for monitors](postman/monitors/pricing_monitors.md).
 

@@ -8,7 +8,7 @@ warning: false
 
 The authorization process verifies whether you have permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-**Note:** If you have session cookies in your browser, you can sync them to Postman using the Interceptor. Refer to the section [Cookies](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/sending_api_requests/cookies/README.md) for more information on syncing cookies using Interceptor.
+**Note:** If you have session cookies in your browser, you can sync them to Postman using the Interceptor. Refer to the section [Cookies](postman/sending_api_requests/cookies.md) for more information on syncing cookies using Interceptor.
 
 When you select "Authorization" in the request builder, you see the **TYPE** drop down menu.
 

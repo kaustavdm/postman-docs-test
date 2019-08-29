@@ -45,24 +45,24 @@ The numbers in the header represent the current iteration. Now its easy to pinpo
 
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1.
 
-Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox_api_reference/README.md), which is 0-indexed with the first iteration beginning with a count of zero.
+Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](postman/scripts/postman_sandbox_api_reference.md), which is 0-indexed with the first iteration beginning with a count of zero.
 
 ## Programmatically customize iteration data
 
 To provide data for a collection run, the Collection runner provides a "Data file" option. However, if you want to access and manipulate that data in the collection runs, you will need to it programmatically through scripts. This can be done by the `pm.iterationData` object, which provides several methods to programmatically access and manipulate the data, allowing the access of iteration data during a collection run.
 
-For a list of methods provided by the iterationData object, see: [pm.iterationData](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/scripts/postman_sandbox_api_reference/README.md)
+For a list of methods provided by the iterationData object, see: [pm.iterationData](postman/scripts/postman_sandbox_api_reference.md)
 
 For more information about collection runs, see:
 
-* [Starting a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/starting_a_collection_run/README.md)
-* [Using environments in collection runs](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/using_environments_in_collection_runs/README.md)
-* [Working with data files](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/working_with_data_files/README.md)
-* [Building workflows](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/building_workflows/README.md)
-* [Sharing a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/sharing_a_collection_run/README.md)
-* [Debugging a collection run](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/debugging_a_collection_run/README.md)
-* [Command line integration with Newman](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/command_line_integration_with_newman/README.md)
-* [Integration with Jenkins](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_jenkins/README.md)
-* [Integration with Travis CI](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/integration_with_travis/README.md)
-* [Newman with Docker](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collection_runs/newman_with_docker/README.md)
+* [Starting a collection run](postman/collection_runs/starting_a_collection_run.md)
+* [Using environments in collection runs](postman/collection_runs/using_environments_in_collection_runs.md)
+* [Working with data files](postman/collection_runs/working_with_data_files.md)
+* [Building workflows](postman/collection_runs/building_workflows.md)
+* [Sharing a collection run](postman/collection_runs/sharing_a_collection_run.md)
+* [Debugging a collection run](postman/collection_runs/debugging_a_collection_run.md)
+* [Command line integration with Newman](postman/collection_runs/command_line_integration_with_newman.md)
+* [Integration with Jenkins](postman/collection_runs/integration_with_jenkins.md)
+* [Integration with Travis CI](postman/collection_runs/integration_with_travis.md)
+* [Newman with Docker](postman/collection_runs/newman_with_docker.md)
 

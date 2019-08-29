@@ -10,9 +10,9 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-* [Sync](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/syncing/README.md) and back up your history, collections, workspaces, environments, and header presets.
+* [Sync](postman/launching_postman/syncing.md) and back up your history, collections, workspaces, environments, and header presets.
 * Easily work on multiple Postman instances from different machines.
-* Create [collection links](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/collections/sharing_collections/README.md) to send to other developers.
+* Create [collection links](postman/collections/sharing_collections.md) to send to other developers.
 
 Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
 
@@ -26,7 +26,7 @@ Sign up with your email address or your Google account. [![sign up with email or
 
 Confirm your email.
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](https://github.com/kaustavdm/postman-docs-test/tree/b9c2cefa916197b408de633b2ecb1d256acf0a06/docs/postman/launching_postman/syncing/README.md). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](postman/launching_postman/syncing.md). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
